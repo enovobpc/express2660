@@ -1,0 +1,424 @@
+.login-simple {
+    position: inherit !important;
+    line-height: 1.15;
+    font-family: Raleway;
+    background: transparent;
+}
+
+.login-simple .btn {
+    outline: none !important;
+}
+
+.login-simple .btn-primary,
+.login-simple .btn-primary:active {
+    background: #fcbe15;
+    border-color: #fcbe15;
+}
+
+.login-simple .btn-primary:hover {
+    background: #ff8400;
+    border-color: #ff8400;
+}
+
+.login-simple a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.login-simple a:active,
+.login-simple a:hover {
+    outline-width: 0;
+}
+
+
+.login-simple img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+
+.custom-input input {
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border-radius: 3px;
+    border: solid 1px;
+    border-color: #dddddd;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #333333;
+    font-family: Raleway;
+}
+
+.custom-input input:focus {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.09);
+    border-color: #fcbe15;
+    outline: 0 none;
+    color: #333333;
+    font-family: Raleway;
+}
+
+.custom-input input::placeholder {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #bebebe;
+    font-family: Raleway;
+}
+
+.custom-input input::-ms-clear {
+    display: none;
+}
+
+.custom-input .input-icon {
+    position: absolute;
+    right: 16px;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    width: 30px;
+    height: 25px;
+    cursor: default;
+    display: none;
+}
+
+.custom-input .error-message {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    color: #ff5351;
+    display: none;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+.custom-input.error input {
+    border-color: #ff5351;
+}
+
+.custom-input.error .error-message {
+    display: block;
+}
+
+
+
+.login {
+    width: 100%;
+    height: 100%;
+}
+
+.login .login-background {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-180deg, #fcbe15, #e58117);
+}
+
+.login .login-background .login-container {
+    background-color: #ffffff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 3px;
+    padding: 0;
+    overflow: hidden;
+    width: 33.3333%;
+    margin: 0 auto;
+}
+
+.login .login-background .login-container .login-header {
+    height: 170px;
+    padding-top: 26px;
+    background-color: #ffffff;
+}
+
+.login .login-background .login-container .login-header .header-icon {
+    width: 45px;
+    height: 52px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+
+.login .login-background .login-container .login-header .header-title {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #333333;
+}
+
+.login .login-background .login-container .login-header .header-sub-title {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #333333;
+    margin-top: 5px;
+}
+
+.login .login-background .login-container .login-body {
+    width: 100%;
+    transition: all 0.3s ease;
+    float: left;
+    padding-bottom: 45px;
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    padding: 0px 14%;
+    position: relative;
+}
+
+.login .login-background .login-container .login-body .body-email-input {
+    margin-bottom: 16px;
+}
+
+.login .login-background .login-container .login-body .body-password-input {
+    margin-bottom: 20px;
+}
+
+.login .login-background .login-container .login-body .body-extra-fields {
+    width: 100%;
+}
+
+.login .login-background .login-container .login-body .body-extra-fields .remember-password {
+    width: 50%;
+    float: left;
+}
+
+.login .login-background .login-container .login-body .body-extra-fields .remember-password input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: solid 0.5px #dddddd;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    float: left;
+}
+
+.login .login-background .login-container .login-body .body-extra-fields .remember-password input:checked:before {
+    content: "";
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-color: #fcbe15;
+    background-color: #fcbe15;
+    background-position: 2px 2px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-image: url("../images/correct-small.svg");
+    border-radius: 2px;
+}
+
+.login .login-background .login-container .login-body .body-extra-fields .remember-password input:disabled {
+    border: 2px solid green;
+    background-color: blue;
+    cursor: default;
+}
+
+.login .login-background .login-container .login-body .body-extra-fields .remember-password span {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    color: #999999;
+    float: left;
+    margin-left: 12px;
+}
+
+.login .login-background .login-container .login-body .body-extra-fields .recover-password {
+    width: 100%;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.login .login-background .login-container .login-body .login-wrapper {
+    width: 50%;
+    float: left;
+    padding: 0 7%;
+    position: relative;
+}
+
+.login .login-background .login-container .login-body .body-title {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #333333;
+}
+
+.login .login-background .login-container .login-body .body-sub-title {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 35px;
+}
+
+.login .login-background .login-container .login-body .body-email-input {
+    margin-bottom: 16px;
+}
+
+.login .login-background .login-container .login-body .body-password-input {
+    margin-bottom: 20px;
+}
+
+.login .login-background .login-container .login-footer {
+    background-color: #ffffff;
+}
+
+.login .login-background .login-container .login-footer .login-button {
+    height: 38px;
+    outline: none !important;
+    border-radius: 100px;
+    background-color: #fcbe15;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.09);
+    border: solid 1px #fcbe15;
+    margin-top: 42px;
+    box-sizing: border-box;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 38px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+}
+
+.login .login-background .login-container .login-body .login-button {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+.login .version {
+    font-size: 11px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 0.3;
+}
+
+
+#login-notifications {
+    width: 100%;
+    float: left;
+}
+
+#login-notifications .custom-notification {
+    left: 50% !important;
+    position: relative !important;
+    transform: translateX(-50%) !important;
+    width: calc(497px + 20px) !important;
+}
+
+#login-notifications .custom-notification .notification-message {
+    top: 50% !important;
+    position: absolute !important;
+    transform: translateY(-50%) !important;
+    line-height: 20px;
+}
+
+@media print, screen and (min-width: 46em) and (max-width: 70em) {
+    .login .login-background .login-container {
+        width: 50%;
+    }
+}
+
+@media print, screen and (max-width: 45em) {
+
+    .login .login-background .login-container {
+        width: 100%;
+    }
+
+    .login .login-background .login-container .login-body {
+        padding: 0 10% 0 10%;
+    }
+
+    #login {
+        overflow-x: hidden;
+        margin: 0;
+    }
+
+    #login .login-background {
+        background: white;
+    }
+
+    #login .login-background .login-container .login-body .body-extra-fields {
+        width: 100%;
+        float: left;
+    }
+
+    #login .login-background .login-container .login-body .body-extra-fields .remember-password {
+        width: 100%;
+        text-align: center;
+    }
+
+    #login .login-background .login-container .login-body .body-extra-fields .remember-password input {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #login .login-background .login-container .login-body .body-extra-fields .remember-password .checkbox-label {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #login .login-background .login-container .login-body .body-extra-fields .recover-password {
+        position: relative;
+        bottom: 0px;
+        margin-top: 0;
+        left: 0;
+        text-align: center;
+        display: block;
+    }
+}
+
+#app-overlays {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+#app {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#app #header {
+    width: 100%;
+    height: 75px;
+}
+
+#app #content {
+    width: 100%;
+    height: calc(100% - 70px);
+    box-sizing: border-box;
+    padding-left: 260px;
+    float: left;
+    overflow: auto;
+}

@@ -1,0 +1,45 @@
+{
+    "name" : "webit/soap-api",
+    "type" : "library",
+    "description": "Web-IT SOAP API Tools",
+    "keywords": ["soap", "api", "soap wrapper", "soap sdk"],
+    "authors": [
+        {
+            "name": "Daniel Bojdo",
+            "email": "daniel@bojdo.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "doctrine/collections": "~1.2",
+        "doctrine/cache": "~1.2"
+    },
+    "require-dev": {
+        "jms/serializer": "~1.0",
+        "phpunit/phpunit": "~4.2",
+        "mockery/mockery": "*",
+        "behat/behat": "~3.0"
+    },
+    "suggest": {
+        "jms/serializer": "To support normalization / hydration based on JMS Serializer. Minimum version: 1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webit\\SoapApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webit\\SoapApi\\Tests\\": "tests/",
+            "Webit\\SoapApi\\Features\\": "features/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-1.x": "1.x-dev",
+            "dev-master": "2.x-dev"
+        }
+    }
+}

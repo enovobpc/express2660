@@ -1,0 +1,1 @@
+{{ trans('admin/billing.vat-rates-classes.'.$row->class) }}

@@ -1,0 +1,1 @@
+{{ @$row->last_history->created_at ? @$row->last_history->created_at->format('Y-m-d') : '' }}

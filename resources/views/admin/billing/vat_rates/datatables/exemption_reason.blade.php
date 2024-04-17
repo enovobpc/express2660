@@ -1,0 +1,1 @@
+<div data-toggle="tooltip" title="{{ trans('admin/billing.exemption-reasons.'.substr($row->zone, 0, 2).'.'.$row->exemption_reason) }}">{{ $row->exemption_reason }}</div>

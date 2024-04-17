@@ -1,0 +1,42 @@
+.transportation-guide{
+    border-bottom: 1px dashed #000; 
+    height: 96.1mm;
+    padding: 10px 20px 0.5px 20px;
+    line-height: 10pt;
+}
+
+.transportation-guide .guide-content{
+    border: 1px solid #000;
+}
+
+.transportation-guide .guide-row{
+    border-bottom: 1px solid #000;
+}
+
+.transportation-guide .guide-row .guide-block{
+    float: left;
+    border-right: 1px solid #000;
+    padding: 2px 4px;
+}
+
+.transportation-guide .guide-block-right{
+    float: left;
+    padding: 4px;
+}
+
+.transportation-guide .guide-block-title{
+    font-size: 7pt;
+}
+
+.transportation-guide .border-bottom{
+    border-bottom: 1px solid #000;
+}
+
+.transportation-guide .guide-payment{
+    width: 33mm;
+    font-size: 10pt;
+    background: #333; 
+    color: #fff;
+    padding: 2px;
+    margin-bottom: 4px;
+}

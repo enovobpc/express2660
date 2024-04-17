@@ -1,0 +1,225 @@
+/*
+ * Skin: Blue Orange
+ * ------------
+ */
+.skin-dark-blue .main-header .navbar {
+  background-color: #001e71;
+}
+.skin-dark-blue .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-dark-blue .main-header .navbar .nav > li > a:hover,
+.skin-dark-blue .main-header .navbar .nav > li > a:active,
+.skin-dark-blue .main-header .navbar .nav > li > a:focus,
+.skin-dark-blue .main-header .navbar .nav .open > a,
+.skin-dark-blue .main-header .navbar .nav .open > a:hover,
+.skin-dark-blue .main-header .navbar .nav .open > a:focus,
+.skin-dark-blue .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-dark-blue .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-dark-blue .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-dark-blue .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-dark-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);;
+}
+@media (max-width: 767px) {
+  .skin-dark-blue .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-dark-blue .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-dark-blue .main-header .navbar .dropdown-menu li a:hover {
+    background: #00114a;
+  }
+}
+.skin-dark-blue .main-header .logo {
+  background-color: #00114a;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-dark-blue .main-header .logo:hover {
+  background-color: #031779;
+}
+.skin-dark-blue .main-header li.user-header {
+  background-color: #00114a;
+}
+.skin-dark-blue .content-header {
+  background: transparent;
+}
+.skin-dark-blue .wrapper,
+.skin-dark-blue .main-sidebar,
+.skin-dark-blue .left-side {
+  background-color: #222d32;
+}
+.skin-dark-blue .user-panel > .info,
+.skin-dark-blue .user-panel > .info > a {
+  color: #fff;
+}
+.skin-dark-blue .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-dark-blue .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-dark-blue .sidebar-menu > li:hover > a,
+.skin-dark-blue .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #00114a;
+}
+.skin-dark-blue .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-dark-blue .sidebar a {
+  color: #b8c7ce;
+}
+.skin-dark-blue .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-dark-blue .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-dark-blue .treeview-menu > li.active > a,
+.skin-dark-blue .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-dark-blue .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-dark-blue .sidebar-form input[type="text"],
+.skin-dark-blue .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-dark-blue .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-dark-blue .sidebar-form input[type="text"]:focus,
+.skin-dark-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-dark-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-dark-blue .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+.modal-header {
+  background: #001e71;
+  border-bottom: 3px solid #00114a;
+  color: #fff;
+  padding: 14px 15px 12px;
+}
+
+.modal-header h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.skin-dark-blue .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #00114a;
+}
+
+
+/**
+ * LOGIN
+ */
+.skin-bordo .container-login100 a:hover {
+  color: #001e71 !important;
+}
+
+.skin-bordo .btn-show-pass:hover,
+.skin-bordo .btn-show-pass.active {
+  color: #111951;
+  color: -webkit-linear-gradient(left, #001e71, #111951);
+  color: -o-linear-gradient(left, #001e71, #111951);
+  color: -moz-linear-gradient(left, #001e71, #111951);
+  color: linear-gradient(left, #001e71, #111951);
+}
+
+.skin-bordo .focus-input100::before {
+  background: #001e71 !important;
+  background: -webkit-linear-gradient(left, #001e71, #111951) !important;
+  background: -o-linear-gradient(left, #001e71, #111951) !important;
+  background: -moz-linear-gradient(left, #001e71, #111951) !important;
+  background: linear-gradient(left, #001e71, #111951) !important;
+}
+
+.skin-bordo .login100-form-bgbtn {
+  background: #001e71;
+  background: -webkit-linear-gradient(right, #001e71, #111951, #001e71, #111951);
+  background: -o-linear-gradient(right, #001e71, #111951, #001e71, #111951);
+  background: -moz-linear-gradient(right, #001e71, #111951, #001e71, #111951);
+  background: linear-gradient(right, #001e71, #111951, #001e71, #111951);
+}
+
+.skin-bordo .pretty input:checked~.state.p-primary label:after,
+.skin-bordo .pretty.p-toggle .state.p-primary label:after {
+  background-color: #001e71 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.account.skin-bordo .btn-user span.username {
+  color: #001e71 !important;
+}
+
+.account.skin-bordo .account-container .text-primary{
+  color: #001e71 !important;
+}
+
+.account.skin-bordo .account-container .btn-primary{
+  background-color: #001e71 !important;
+  border-color: #001e71 !important;
+}
+
+.account.skin-bordo .account-container .btn-primary:hover,
+.account.skin-bordo .account-container .btn-primary:hover:active,
+.account.skin-bordo .account-container .btn-primary:active,
+.account.skin-bordo .account-container .btn-primary.hover {
+  background-color: #111951 !important;
+  border-color: #111951 !important;
+  color: #fff !important;
+}
+
+.account.skin-bordo .account-sidebar .list-group-item.active,
+.account.skin-bordo .account-sidebar .list-group-item.active:focus,
+.account.skin-bordo .account-sidebar .list-group-item.active:hover {
+  color: #001e71 !important;
+}
+
+.account.skin-bordo .modal-header,
+.account.skin-bordo .customer-support .contact .icon{
+  background: #001e71 !important;
+}
+
+.customer-support .contact {
+  border-color: #001e71 !important;
+}

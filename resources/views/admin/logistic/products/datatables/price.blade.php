@@ -1,0 +1,1 @@
+{{ @$row->price ? money($row->price, Setting::get('app_currency')) : '' }}

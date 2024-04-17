@@ -1,0 +1,224 @@
+/*
+ * Skin: Space Blue
+ * ---------
+ */
+.skin-space-blue .main-header .navbar {
+    background-color: #212558;
+}
+
+.skin-space-blue .main-header .navbar .nav > li > a {
+    color: #ffffff;
+}
+.skin-space-blue .main-header .navbar .nav > li > a:hover,
+.skin-space-blue .main-header .navbar .nav > li > a:active,
+.skin-space-blue .main-header .navbar .nav > li > a:focus,
+.skin-space-blue .main-header .navbar .nav .open > a,
+.skin-space-blue .main-header .navbar .nav .open > a:hover,
+.skin-space-blue .main-header .navbar .nav .open > a:focus,
+.skin-space-blue .main-header .navbar .nav > .active > a {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f6f6f6;
+}
+.skin-space-blue .main-header .navbar .sidebar-toggle {
+    color: #ffffff;
+}
+.skin-space-blue .main-header .navbar .sidebar-toggle:hover {
+    color: #f6f6f6;
+    background: rgba(255, 255, 255, 0.2);
+}
+.skin-space-blue .main-header .navbar .sidebar-toggle {
+    color: #fff;
+}
+.skin-space-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #333;
+}
+@media (max-width: 767px) {
+    .skin-space-blue .main-header .navbar .dropdown-menu li.divider {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .skin-space-blue .main-header .navbar .dropdown-menu li a {
+        color: #fff;
+    }
+    .skin-space-blue .main-header .navbar .dropdown-menu li a:hover {
+        background: #2184BE;
+    }
+}
+.skin-space-blue .main-header .logo {
+    background-color: #0d1140;
+    color: #ffffff;
+    border-bottom: 0 solid transparent;
+}
+.skin-space-blue .main-header .logo:hover {
+    background-color: #0d1140;
+}
+.skin-space-blue .main-header li.user-header {
+    background-color: #555;
+}
+.skin-space-blue .content-header {
+    background: transparent;
+}
+.skin-space-blue .wrapper,
+.skin-space-blue .main-sidebar,
+.skin-space-blue .left-side {
+    background-color: #19a5e0;
+}
+.skin-space-blue .user-panel > .info,
+.skin-space-blue .user-panel > .info > a {
+    color: #fff;
+}
+.skin-space-blue .sidebar-menu > li.header {
+    color: #fbfeff;
+    background: #1b323e1a;
+}
+.skin-space-blue .sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+}
+.skin-space-blue .sidebar-menu > li:hover > a,
+.skin-space-blue .sidebar-menu > li.active > a {
+    color: #ffffff;
+    background: rgba(0,0,0,0.1);
+    border-left-color: rgba(0,0,0,0.8);
+}
+.skin-space-blue .sidebar-menu > li > .treeview-menu {
+    margin: 0 1px;
+    background: #38aee0;
+}
+.skin-space-blue .sidebar a {
+    color: #eee;
+}
+.skin-space-blue .sidebar a:hover {
+    text-decoration: none;
+}
+.skin-space-blue .treeview-menu > li > a {
+    color: rgba(255,255,255,0.8);
+}
+.skin-space-blue .treeview-menu > li.active > a,
+.skin-space-blue .treeview-menu > li > a:hover {
+    color: #ffffff;
+}
+.skin-space-blue .sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #374850;
+    margin: 10px 10px;
+}
+.skin-space-blue .sidebar-form input[type="text"],
+.skin-space-blue .sidebar-form .btn {
+    box-shadow: none;
+    background-color: #374850;
+    border: 1px solid transparent;
+    height: 35px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.skin-space-blue .sidebar-form input[type="text"] {
+    color: #666;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+}
+.skin-space-blue .sidebar-form input[type="text"]:focus,
+.skin-space-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    background-color: #fff;
+    color: #666;
+}
+.skin-space-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    border-left-color: #fff;
+}
+.skin-space-blue .sidebar-form .btn {
+    color: #999;
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0;
+}
+.modal-header {
+    border: none;
+    background: #0096d6;
+}
+.modal-header h4 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.skin-space-blue .nav-tabs-custom > .nav-tabs > li.active {
+    border-top-color: #0096d6;
+}
+
+/**
+ * LOGIN
+ */
+.skin-space-blue .container-login100 a:hover {
+    color: #0096d6 !important;
+}
+
+.skin-space-blue .btn-show-pass:hover,
+.skin-space-blue .btn-show-pass.active {
+    color: #2184BE;
+    color: -webkit-linear-gradient(left, #0096d6, #2184BE);
+    color: -o-linear-gradient(left, #0096d6, #2184BE);
+    color: -moz-linear-gradient(left, #0096d6, #2184BE);
+    color: linear-gradient(left, #0096d6, #2184BE);
+}
+
+.skin-space-blue .focus-input100::before {
+    background: #0096d6 !important;
+    background: -webkit-linear-gradient(left, #0096d6, #2184BE) !important;
+    background: -o-linear-gradient(left, #0096d6, #2184BE) !important;
+    background: -moz-linear-gradient(left, #0096d6, #2184BE) !important;
+    background: linear-gradient(left, #0096d6, #2184BE) !important;
+}
+
+.skin-space-blue .login100-form-bgbtn {
+    background: #0096d6;
+    background: -webkit-linear-gradient(right, #0096d6, #2184BE, #0096d6, #2184BE);
+    background: -o-linear-gradient(right, #0096d6, #2184BE, #0096d6, #2184BE);
+    background: -moz-linear-gradient(right, #0096d6, #2184BE, #0096d6, #2184BE);
+    background: linear-gradient(right, #0096d6, #2184BE, #0096d6, #2184BE);
+}
+
+.skin-space-blue .pretty input:checked~.state.p-primary label:after,
+.skin-space-blue .pretty.p-toggle .state.p-primary label:after {
+    background-color: #0096d6 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.skin-space-blue .btn-user span.username {
+    color: #0096d6 !important;
+}
+
+.account.skin-space-blue .account-container .text-primary{
+    color: #0096d6 !important;
+}
+
+.account.skin-space-blue .account-container .btn-primary{
+    background-color: #0096d6 !important;
+    border-color: #0096d6 !important;
+}
+
+.account.skin-space-blue .account-container .btn-primary:hover,
+.account.skin-space-blue .account-container .btn-primary:hover:active,
+.account.skin-space-blue .account-container .btn-primary:active,
+.account.skin-space-blue .account-container .btn-primary.hover {
+    background-color: #2184BE !important;
+    border-color: #2184BE !important;
+    color: #fff !important;
+}
+
+.account.skin-space-blue .account-sidebar .list-group-item.active,
+.account.skin-space-blue .account-sidebar .list-group-item.active:focus,
+.account.skin-space-blue .account-sidebar .list-group-item.active:hover {
+    color: #0096d6 !important;
+}
+
+.account.skin-space-blue .modal-header,
+.account.skin-space-blue .customer-support .contact .icon{
+    background: #0096d6 !important;
+}
+
+.customer-support .contact {
+    border-color: #0096d6 !important;
+}

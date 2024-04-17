@@ -1,0 +1,220 @@
+/*
+ * Skin: Tarawera
+ * ------------
+ */
+.skin-tarawera .main-header .navbar {
+  background-color: #0A3354;
+}
+.skin-tarawera .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-tarawera .main-header .navbar .nav > li > a:hover,
+.skin-tarawera .main-header .navbar .nav > li > a:active,
+.skin-tarawera .main-header .navbar .nav > li > a:focus,
+.skin-tarawera .main-header .navbar .nav .open > a,
+.skin-tarawera .main-header .navbar .nav .open > a:hover,
+.skin-tarawera .main-header .navbar .nav .open > a:focus,
+.skin-tarawera .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-tarawera .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-tarawera .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-tarawera .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-tarawera .main-header .navbar .sidebar-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);;
+}
+@media (max-width: 767px) {
+  .skin-tarawera .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-tarawera .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-tarawera .main-header .navbar .dropdown-menu li a:hover {
+    background: #e08e0b;
+  }
+}
+.skin-tarawera .main-header .logo {
+  background-color: #0A3354;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-tarawera .main-header .logo:hover {
+  background-color: #0A3354;
+}
+.skin-tarawera .main-header li.user-header {
+  background-color: #f39c12;
+}
+.skin-tarawera .content-header {
+  background: transparent;
+}
+.skin-tarawera .wrapper,
+.skin-tarawera .main-sidebar,
+.skin-tarawera .left-side {
+  background-color: #222d32;
+}
+.skin-tarawera .user-panel > .info,
+.skin-tarawera .user-panel > .info > a {
+  color: #fff;
+}
+.skin-tarawera .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-tarawera .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-tarawera .sidebar-menu > li:hover > a,
+.skin-tarawera .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #F7941E;
+}
+.skin-tarawera .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-tarawera .sidebar a {
+  color: #b8c7ce;
+}
+.skin-tarawera .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-tarawera .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-tarawera .treeview-menu > li.active > a,
+.skin-tarawera .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-tarawera .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-tarawera .sidebar-form input[type="text"],
+.skin-tarawera .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-tarawera .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-tarawera .sidebar-form input[type="text"]:focus,
+.skin-tarawera .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-tarawera .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-tarawera .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.modal-header {
+  background: #0A3354;
+  padding: 14px 15px 12px;
+}
+.modal-header h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.skin-tarawera .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #0A3354;
+}
+
+/**
+ * LOGIN
+ */
+.skin-tarawera .container-login100 a:hover {
+  color: #F7941E !important;
+}
+
+.skin-tarawera .btn-show-pass:hover,
+.skin-tarawera .btn-show-pass.active {
+  color: #0A3354;
+  color: -webkit-linear-gradient(left, #0A3354, #0a4f77);
+  color: -o-linear-gradient(left, #0A3354, #0a4f77);
+  color: -moz-linear-gradient(left, #0A3354, #0a4f77);
+  color: linear-gradient(left, #0A3354, #0a4f77);
+}
+
+.skin-tarawera .focus-input100::before {
+  background: #0A3354 !important;
+  background: -webkit-linear-gradient(left, #0A3354, #0a4f77) !important;
+  background: -o-linear-gradient(left, #0A3354, #0a4f77) !important;
+  background: -moz-linear-gradient(left, #0A3354, #0a4f77) !important;
+  background: linear-gradient(left, #0A3354, #0a4f77) !important;
+}
+
+.skin-tarawera .login100-form-bgbtn {
+  background: #0A3354;
+  background: -webkit-linear-gradient(right, #0A3354, #0a4f77, #0A3354, #0a4f77);
+  background: -o-linear-gradient(right, #0A3354, #0a4f77, #0A3354, #0a4f77);
+  background: -moz-linear-gradient(right, #0A3354, #0a4f77, #0A3354, #0a4f77);
+  background: linear-gradient(right, #0A3354, #0a4f77, #0A3354, #0a4f77);
+}
+
+.skin-tarawera .pretty input:checked~.state.p-primary label:after,
+.skin-tarawera .pretty.p-toggle .state.p-primary label:after {
+  background-color: #0A3354 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.skin-tarawera .btn-user span.username {
+  color: #F7941E !important;
+}
+
+.account.skin-tarawera .account-container .text-primary{
+  color: #0A3354 !important;
+}
+
+.account.skin-tarawera .account-container .btn-primary{
+  background-color: #0A3354 !important;
+  border-color: #0A3354 !important;
+}
+
+.account.skin-tarawera .account-container .btn-primary:hover,
+.account.skin-tarawera .account-container .btn-primary:hover:active,
+.account.skin-tarawera .account-container .btn-primary:active,
+.account.skin-tarawera .account-container .btn-primary.hover {
+  background-color: #F7941E !important;
+  border-color: #F7941E !important;
+  color: #fff !important;
+}
+
+.account.skin-tarawera .account-sidebar .list-group-item.active,
+.account.skin-tarawera .account-sidebar .list-group-item.active:focus,
+.account.skin-tarawera .account-sidebar .list-group-item.active:hover {
+  color: #F7941E !important;
+}
+
+.account.skin-tarawera .modal-header,
+.account.skin-tarawera .customer-support .contact .icon{
+  background: #0A3354 !important;
+}
+
+.customer-support .contact {
+  border-color: #0A3354 !important;
+}

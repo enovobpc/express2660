@@ -1,0 +1,77 @@
+<?php
+
+return [
+
+    'label' => [
+        'zone'       => 'Zone',
+        'service'    => 'SERVICE',
+        'shipping'   => 'EXPÉDITION',
+        'return'     => 'REVENIR',
+        'dispatcher' => 'RÉPARTITEUR',
+        'recipient'  => 'DESTINATAIRE'
+    ],
+
+    'guide' => [
+        'date'       => 'DATE',
+        'hour'    => 'HEURE',
+        'client' => 'Client',
+        'vat'   => 'Nº TVA',
+        'expedition' => 'EXPÉDITEUR (raison social ou nom, siège social ou domicile)',
+        'destination' => 'DESTINATAIRE (raison social ou nom, siège social ou domicile)',
+        'tlf' => 'Tél',
+        'guide_number' => 'Bon de Livraison',
+        'from' => 'LIEU DE CHARGEMENT',
+        'to' => 'LIEU DE LIVRAISON',
+        'operator' => 'TRANSPORTEUR',
+        'registration' => 'Immatriculation',
+        'weight' => 'POIDS BRUT (kg)',
+        'charge_weight' => 'CHARGE UTILE (kg)',
+        'merchandise' => 'MARCHANDISE TRANSPORTÉE',
+        'volumes' => 'Colisage',
+        'packing' => 'Emballage',
+        'description' => 'Type',
+        'all_weight' => 'Poids brut',
+        'volume' => 'Colisage',
+        'declaration' => 'RÉSERVES/INSTRUCTIONS DESTINATAIRE',
+        'return' => 'Reembolso',
+        'return_shipping' => 'Retorno Encomenda',
+        'return_guide' => 'Retorno Guia Assinada',
+        'payment_mensal' => 'Pagamento mensal pelo destinatário',
+        'payment_destiny' => 'Pagamento no destino',
+        'transport_subcontract' => 'TRANSPORTS SUCCESSIFS/SOUS-TRAITANCE',
+        'declaration_instrutions' => 'RÉSERVES/INSTRUCTIONS EXPÉDITEUR',
+        'payment_to' => 'Pagamento pelo Destinatário',
+        'signature_operator' => 'Sign. transporteur',
+        'inst_operator' => 'INSTRUCTIONS TRANSPORTEUR',
+        'refund_money' => 'Reembolso pago Numerário',
+        'refund_che' => 'Reembolso pago Cheque',
+        'signature' => "La signature suppose la connaissance et l'acceptation des conditions de transport. Consultez-les sur",
+        'signature_expedition' => 'Sign. expéditeur',
+        'signature_destiny' => 'Sign. destinataire'
+    ],
+
+    'cargo' => [
+        'title' => 'MANIFEST DE CHARGEMENT',
+        'service'  => 'Serv.',
+        'shipment' => 'Tracking',
+        'delivery' => 'Colisage',
+        'reference' => 'Référence',
+        'charge' => 'Contre-remboursement',
+        'discharge' => 'Livraison',
+        'expeditions' => 'Envois',
+        'volumes' => 'Colis',
+        'charges' => 'Contre-remboursement',
+        'shipping' => 'Coûts des envois',
+        'all_expeditions' => 'Total Envois',
+        'all_volumes' => 'Total Colis',
+        'all_value' => 'Valeur Total',
+        'all_weight' => 'Poids Total',
+        'signature' => 'Signature',
+        'date_hour' => 'Date et Heure de Chargement'
+    ],
+    'all' => [
+        'original'  => "Copie de l'expéditeur - ORIGINAL",
+        'second'  => "Copie de l'transporteur - DUPLICATA",
+        'third'  => "Copie de l'destinataire - TRIPLE",
+    ],
+];

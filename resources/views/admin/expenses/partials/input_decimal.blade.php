@@ -1,0 +1,1 @@
+{{ Form::text('trigger_values[]', @$shippingExpense->trigger_values[$key], ['class' => 'form-control input-sm']) }}

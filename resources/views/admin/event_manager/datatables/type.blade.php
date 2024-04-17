@@ -1,0 +1,1 @@
+{{ trans('admin/event-manager.types.'. $row->type) }}

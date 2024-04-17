@@ -1,0 +1,228 @@
+/*
+ * Skin: Gold
+ * ------------
+ */
+
+.skin-gold .main-header .navbar {
+  background-color: #deb658;
+}
+.skin-gold .main-header .navbar .nav > li > a {
+  color: rgba(53, 40, 8, 0.75);
+}
+.skin-gold .main-header .navbar .nav > li > a:hover,
+.skin-gold .main-header .navbar .nav > li > a:active,
+.skin-gold .main-header .navbar .nav > li > a:focus,
+.skin-gold .main-header .navbar .nav .open > a,
+.skin-gold .main-header .navbar .nav .open > a:hover,
+.skin-gold .main-header .navbar .nav .open > a:focus,
+.skin-gold .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+.skin-gold .main-header .navbar .sidebar-toggle {
+  color: rgba(53, 40, 8, 0.75);
+}
+.skin-gold .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-gold .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-gold .main-header .navbar .sidebar-toggle:hover {
+  background-color: #deb658;
+}
+@media (max-width: 767px) {
+  .skin-gold .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-gold .main-header .navbar .dropdown-menu li a {
+    color: rgba(0,0,0,0.7);
+  }
+  .skin-gold .main-header .navbar .dropdown-menu li a:hover {
+    background: #deb658;
+    color: #000;
+  }
+}
+.skin-gold .main-header .logo {
+  background-color: #deb658;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-gold .main-header .logo:hover {
+  background-color: #cba357;
+}
+.skin-gold .main-header li.user-header {
+  background-color: #deb658;
+}
+.skin-gold .content-header {
+  background: transparent;
+}
+.skin-gold .wrapper,
+.skin-gold .main-sidebar,
+.skin-gold .left-side {
+  background-color: #222d32;
+}
+.skin-gold .user-panel > .info,
+.skin-gold .user-panel > .info > a {
+  color: #fff;
+}
+.skin-gold .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-gold .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-gold .sidebar-menu > li:hover > a,
+.skin-gold .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #deb658;
+}
+.skin-gold .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-gold .sidebar a {
+  color: #b8c7ce;
+}
+.skin-gold .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-gold .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-gold .treeview-menu > li.active > a,
+.skin-gold .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-gold .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-gold .sidebar-form input[type="text"],
+.skin-gold .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-gold .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-gold .sidebar-form input[type="text"]:focus,
+.skin-gold .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-gold .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-gold .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+.skin-gold .notifications-menu .label-counter {
+  font-size: 14px !important;
+  background: #df000c !important;
+  color: #fff !important;;
+  display: block;
+}
+.modal-header {
+  background: #FFCF00;
+}
+.modal-header h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+.skin-gold .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #FFCF00;
+}
+
+/**
+ * LOGIN
+ */
+.skin-gold .container-login100 a:hover {
+  color: #deb658 !important;
+}
+
+.skin-gold .btn-show-pass:hover,
+.skin-gold .btn-show-pass.active {
+  color: #cba357;
+  color: -webkit-linear-gradient(left, #deb658, #cba357);
+  color: -o-linear-gradient(left, #deb658, #cba357);
+  color: -moz-linear-gradient(left, #deb658, #cba357);
+  color: linear-gradient(left, #deb658, #cba357);
+}
+
+.skin-gold .focus-input100::before {
+  background: #deb658 !important;
+  background: -webkit-linear-gradient(left, #deb658, #cba357) !important;
+  background: -o-linear-gradient(left, #deb658, #cba357) !important;
+  background: -moz-linear-gradient(left, #deb658, #cba357) !important;
+  background: linear-gradient(left, #deb658, #cba357) !important;
+}
+
+.skin-gold .login100-form-bgbtn {
+  background: #deb658;
+  background: -webkit-linear-gradient(right, #deb658, #cba357, #deb658, #cba357);
+  background: -o-linear-gradient(right, #deb658, #cba357, #deb658, #cba357);
+  background: -moz-linear-gradient(right, #deb658, #cba357, #deb658, #cba357);
+  background: linear-gradient(right, #deb658, #cba357, #deb658, #cba357);
+}
+
+.skin-gold .pretty input:checked~.state.p-primary label:after,
+.skin-gold .pretty.p-toggle .state.p-primary label:after {
+  background-color: #deb658 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.skin-gold .btn-user span.username {
+  color: #deb658 !important;
+}
+
+.account.skin-gold .account-container .text-primary{
+  color: #deb658 !important;
+}
+
+.account.skin-gold .account-container .btn-primary{
+  background-color: #deb658 !important;
+  border-color: #deb658 !important;
+}
+
+.account.skin-gold .account-container .btn-primary:hover,
+.account.skin-gold .account-container .btn-primary:hover:active,
+.account.skin-gold .account-container .btn-primary:active,
+.account.skin-gold .account-container .btn-primary.hover {
+  background-color: #cba357 !important;
+  border-color: #cba357 !important;
+  color: #000 !important;
+}
+
+.account.skin-gold .account-sidebar .list-group-item.active,
+.account.skin-gold .account-sidebar .list-group-item.active:focus,
+.account.skin-gold .account-sidebar .list-group-item.active:hover {
+  color: #deb658 !important;
+}
+
+.account.skin-gold .modal-header,
+.account.skin-gold .customer-support .contact .icon{
+  background: #deb658 !important;
+}
+
+.customer-support .contact {
+  border-color: #deb658 !important;
+}

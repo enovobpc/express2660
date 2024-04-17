@@ -1,0 +1,224 @@
+/*
+ * Skin: Blue Yellow
+ * ------------
+ */
+.skin-blue-yellow .main-header .navbar {
+  background-color: #001652;
+}
+.skin-blue-yellow .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-blue-yellow .main-header .navbar .nav > li > a:hover,
+.skin-blue-yellow .main-header .navbar .nav > li > a:active,
+.skin-blue-yellow .main-header .navbar .nav > li > a:focus,
+.skin-blue-yellow .main-header .navbar .nav .open > a,
+.skin-blue-yellow .main-header .navbar .nav .open > a:hover,
+.skin-blue-yellow .main-header .navbar .nav .open > a:focus,
+.skin-blue-yellow .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-blue-yellow .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-blue-yellow .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-blue-yellow .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-blue-yellow .main-header .navbar .sidebar-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);;
+}
+@media (max-width: 767px) {
+  .skin-blue-yellow .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-blue-yellow .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-blue-yellow .main-header .navbar .dropdown-menu li a:hover {
+    background: #e08e0b;
+  }
+}
+.skin-blue-yellow .main-header .logo {
+  background-color: #FEBE10;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-blue-yellow .main-header .logo:hover {
+  background-color: #d36d2e;
+}
+.skin-blue-yellow .main-header li.user-header {
+  background-color: #f39c12;
+}
+.skin-blue-yellow .content-header {
+  background: transparent;
+}
+.skin-blue-yellow .wrapper,
+.skin-blue-yellow .main-sidebar,
+.skin-blue-yellow .left-side {
+  background-color: #222d32;
+}
+.skin-blue-yellow .user-panel > .info,
+.skin-blue-yellow .user-panel > .info > a {
+  color: #fff;
+}
+.skin-blue-yellow .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-blue-yellow .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-blue-yellow .sidebar-menu > li:hover > a,
+.skin-blue-yellow .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #FEBE10;
+}
+.skin-blue-yellow .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-blue-yellow .sidebar a {
+  color: #b8c7ce;
+}
+.skin-blue-yellow .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-blue-yellow .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-blue-yellow .treeview-menu > li.active > a,
+.skin-blue-yellow .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-blue-yellow .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-blue-yellow .sidebar-form input[type="text"],
+.skin-blue-yellow .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-blue-yellow .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-blue-yellow .sidebar-form input[type="text"]:focus,
+.skin-blue-yellow .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-blue-yellow .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-blue-yellow .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+.modal-header {
+  background: #001652;
+  border-bottom: 3px solid #FEBE10;
+  color: #fff;
+  padding: 14px 15px 12px;
+}
+
+.modal-header h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.skin-blue-yellow .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #FEBE10;
+}
+
+/**
+ * LOGIN
+ */
+.skin-blue-yellow .container-login100 a:hover {
+  color: #FEBE10 !important;
+}
+
+.skin-blue-yellow .btn-show-pass:hover,
+.skin-blue-yellow .btn-show-pass.active {
+  color: #FEBE10;
+  color: -webkit-linear-gradient(left, #FEBE10, #001652);
+  color: -o-linear-gradient(left, #FEBE10, #001652);
+  color: -moz-linear-gradient(left, #FEBE10, #001652);
+  color: linear-gradient(left, #FEBE10, #001652);
+}
+
+.skin-blue-yellow .focus-input100::before {
+  background: #FEBE10 !important;
+  background: -webkit-linear-gradient(left, #FEBE10, #001652) !important;
+  background: -o-linear-gradient(left, #FEBE10, #001652) !important;
+  background: -moz-linear-gradient(left, #FEBE10, #001652) !important;
+  background: linear-gradient(left, #FEBE10, #001652) !important;
+}
+
+.skin-blue-yellow .login100-form-bgbtn {
+  background: #FEBE10;
+  background: -webkit-linear-gradient(right, #FEBE10, #001652, #FEBE10, #001652);
+  background: -o-linear-gradient(right, #FEBE10, #001652, #FEBE10, #001652);
+  background: -moz-linear-gradient(right, #FEBE10, #001652, #FEBE10, #001652);
+  background: linear-gradient(right, #FEBE10, #001652, #FEBE10, #001652);
+}
+
+.skin-blue-yellow .pretty input:checked~.state.p-primary label:after,
+.skin-blue-yellow .pretty.p-toggle .state.p-primary label:after {
+  background-color: #FEBE10 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.skin-blue-yellow .btn-user span.username {
+  color: #FEBE10 !important;
+}
+
+.account.skin-blue-yellow .account-container .text-primary{
+  color: #FEBE10 !important;
+}
+
+.account.skin-blue-yellow .account-container .btn-primary{
+  background-color: #FEBE10 !important;
+  border-color: #FEBE10 !important;
+}
+
+.account.skin-blue-yellow .account-container .btn-primary:hover,
+.account.skin-blue-yellow .account-container .btn-primary:hover:active,
+.account.skin-blue-yellow .account-container .btn-primary:active,
+.account.skin-blue-yellow .account-container .btn-primary.hover {
+  background-color: #001652 !important;
+  border-color: #001652 !important;
+  color: #fff !important;
+}
+
+.account.skin-blue-yellow .account-sidebar .list-group-item.active,
+.account.skin-blue-yellow .account-sidebar .list-group-item.active:focus,
+.account.skin-blue-yellow .account-sidebar .list-group-item.active:hover {
+  color: #FEBE10 !important;
+}
+
+.account.skin-blue-yellow .modal-header,
+.account.skin-blue-yellow .customer-support .contact .icon{
+  background: #FEBE10 !important;
+}
+
+.customer-support .contact {
+  border-color: #FEBE10 !important;
+}

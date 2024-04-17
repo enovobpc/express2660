@@ -1,0 +1,354 @@
+/*
+ * CUSTOM SELECT2
+ */
+/*.select2-container .select2-selection--single {
+    height: 39px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+*/
+
+/*.select2 {
+    width: 100% !important;
+}*/
+.select2-container{ 
+    margin-top: 2px;
+    width: 100% !important;
+    max-width: 200px;
+}
+
+.select2-fullwidth .select2-container{
+    max-width: 100% !important;
+}
+
+.select2-container--bootstrap 
+.select2-selection--single{
+    height: 38px;
+    margin-top: -2px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field{
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection, 
+.select2-container--bootstrap.select2-container--open .select2-selection{
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-top: -2px;
+}
+
+.select2-container .select2-selection--single{
+    height: 36px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 3px;
+    right: 3px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #555;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.select2-container--open .select2-dropdown--below {
+    margin-top: -3px;
+}
+
+.select2-results__option{
+    font-size: 13px !important;
+}
+
+.input-sm .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-top: -5px;
+}
+
+/*
+ * CUSTOM LIGHT SLIDER
+ */
+.lSAction > a{
+    background-image: url('/assets/img/controls.png') !important;
+    z-index: 0;
+}
+
+@media (min-width: 992px) {
+    .products-images .lSSlideWrapper {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 15px;
+    }
+}
+
+/*
+ * CUSTOM LIGHT GALLERY
+ */
+.lg-backdrop {
+    background-color: #fff;
+}
+
+.lg-toolbar{
+    background-color: rgba(243, 243, 243, 0.9);
+    border-bottom: 1px solid #ddd;
+}
+
+.lg-toolbar .lg-icon {
+    color: #999;
+}
+
+.lg-actions .lg-next,
+.lg-actions .lg-prev{
+    background-color: transparent;
+}
+
+.lg-outer .lg-thumb-outer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+.lg-outer .lg-toogle-thumb {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover,
+.lg-outer .lg-toogle-thumb:hover,
+.lg-toolbar .lg-icon:hover{
+    color: #000;
+}
+
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item:hover {
+    border-color: #444;
+}
+
+/*
+ * CUSTOM CAROUSEL
+ */
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right{
+    background: none;
+}
+
+.carousel-control .fa {
+    font-size: 30px;
+    top: 50%;
+    position: absolute;
+    margin-top: -35px;
+    opacity: 1;
+    background: #555;
+    color: #fff;
+    padding: 15px 15px 17px;
+}
+
+.carousel-control .fa-angle-left{
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-control .fa-angle-right{
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.carousel .banner-img{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel .item div.item-img{
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel .caption {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px #333;
+    color: #fff;
+    position: absolute;
+    /*top: 100px;*/
+    top: 20%;
+}
+
+.carousel .subcaption{
+    position: absolute;
+    /*top: 140px;*/
+    top: 29%;
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 0px 1px 1px #333;
+}
+
+.carousel-inner{
+    margin-bottom: -1px;
+}
+
+/*
+ * SCREEN MD
+ */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carousel .caption {
+        top: 15%;
+    }
+
+    .carousel .subcaption{
+        top: 25%;
+    }
+}
+
+/*
+ * SCREEN SM
+ */
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel .caption {
+        top: 15%;
+        font-size: 28px;
+    }
+
+    .carousel .subcaption{
+        top: 25%;
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+
+/*
+ * SCREEN XS
+ */
+@media (max-width: 767px) {
+
+    .carousel {
+        background: #333;
+    }
+
+    .carousel .item img{
+        margin-bottom: 85px;
+        background: #000;
+    }
+
+    .carousel .caption {
+        top: 63%;
+        font-size: 17px;
+    }
+
+    .carousel .subcaption{
+        top: 76%;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .carousel-control .fa {
+        font-size: 19px;
+        top: 50%;
+        position: absolute;
+        margin-top: -65px;
+        opacity: 1;
+        background: #555;
+        color: #fff;
+        padding: 10px 10px 10px 14px;
+    }
+
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    background: #eee;
+}
+
+.modal-header .close {
+    margin-top: -3px;
+    margin-bottom: -8px;
+}
+
+
+.notice {
+    color: #444;
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+    box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+.notice-success {
+    border-color: #7cba11;
+    background: rgba(124, 186, 17, 0.1);
+}
+.notice-success>strong {
+    color: #7cba11;
+}
+.notice-info {
+    border-color: #45ABCD;
+    background: rgba(69,171,205,0.1);
+}
+.notice-info>strong {
+    color: #45ABCD;
+}
+.notice-warning {
+    border-color: #FEAF20;
+    background: rgba(254,175,32, 0.1);
+}
+.notice-warning>strong {
+    color: #FEAF20;
+}
+.notice-danger {
+    border-color: #d73814;
+    background: rgba(215, 56, 20, 0.1);
+}
+.notice-danger>strong {
+    color: #d73814;
+}
+
+
+/* CUSTOM ERRORS */
+.has-error .form-control{
+    border-color: #d73814;
+}
+
+.has-error .help-block, 
+.has-error .control-label, 
+.has-error .radio, 
+.has-error .checkbox, 
+.has-error .radio-inline, 
+.has-error .checkbox-inline, 
+.has-error.radio label, 
+.has-error.checkbox label, 
+.has-error.radio-inline label, 
+.has-error.checkbox-inline label {
+    color: #d73814;
+}
+

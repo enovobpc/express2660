@@ -1,0 +1,1 @@
+<i class="flag-icon flag-icon-{{ $row->end_country }}"></i> {{ $row->end_location }}

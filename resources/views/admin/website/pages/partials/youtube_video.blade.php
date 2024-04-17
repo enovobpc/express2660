@@ -1,0 +1,1 @@
+<iframe class="embed-main-video" src="{{ $content->embed }}" style="border: none; height: {{ $content->height ? $content->height : '240' }}px; width: {{ $content->width ? $content->width : '100%' }}"></iframe>

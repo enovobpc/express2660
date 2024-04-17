@@ -1,0 +1,34 @@
+.adhesive-label{
+    height: 100mm;
+    line-height: 10pt;
+}
+
+.adhesive-label .adhesive-content{
+    border: 1px solid #000;
+}
+
+.adhesive-label .adhesive-row .adhesive-block{
+    float: left;
+    padding: 2px 4px;
+}
+
+.adhesive-label .adhesive-block-title{
+    font-size: 7pt;
+}
+
+.adhesive-label .border-bottom{
+    border-bottom: 1px solid #000;
+}
+
+.adhesive-label .border-right {
+    border-right: 1px solid #000;
+}
+
+.adhesive-label .guide-payment{
+    width: 33mm;
+    font-size: 11pt; 
+    background: #333; 
+    color: #fff;
+    padding: 2px;
+    margin-bottom: 4px;
+}

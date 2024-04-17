@@ -1,0 +1,42 @@
+.collection-manifest{
+    border-bottom: 1px dashed #000; 
+    height: 142mm;
+    padding: 10px 6px 0.5px 6px;
+    line-height: 10pt;
+    font-size: 11px;
+    padding-right: 7mm;
+    padding-left: 7mm;
+    padding-top: 7mm;
+    padding-bottom: 0;
+}
+
+body.collection-manifest:last-child {
+    border-bottom: none;
+}
+
+
+.collection-manifest .guide-row .guide-block{
+    float: left;
+    padding: 2px 4px;
+}
+
+.collection-manifest .border-bottom {
+    border-bottom: 1px solid #000;
+}
+
+.collection-manifest .border-right {
+    border-right: 1px solid #000;
+}
+
+.collection-manifest .border-left {
+    border-left: 1px solid #000;
+}
+
+.collection-manifest .guide-block-right{
+    float: left;
+    padding: 4px;
+}
+
+.collection-manifest .guide-block-title{
+    font-size: 7pt;
+}

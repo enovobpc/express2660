@@ -1,0 +1,80 @@
+
+* {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+body {
+    background-size: 100% !important;
+    font-family: 'Arial';
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.background{
+    background: red;
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+h1, h2{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 12pt;
+}
+
+h2{
+    font-size: 10pt;
+}
+
+h1.document-title{
+    padding-top: 8mm;
+}
+
+.table-header th{
+    background: #ccc;
+}
+
+th, td {
+    padding: 5px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+}
+
+tr.border-top th,
+tr.border-top td{
+    border-top: 1px solid #ddd; 
+}
+
+img {
+    page-break-inside: avoid;
+    border: 0px solid #FFF;
+    margin: 5px;
+    max-height: 250px !important;
+}
+
+.break-avoid {
+    page-break-inside: avoid;
+}
+
+.table-pdf,
+.table-pdf tr,
+.table-pdf td{
+    background: rgba(255,255,255,0.5);
+}
+
+.table-pdf th {
+    background: #333;
+    color: #fff;
+}
+
+.table-pdf th,
+.table-pdf td {
+    padding: 0.5mm 1mm;
+}

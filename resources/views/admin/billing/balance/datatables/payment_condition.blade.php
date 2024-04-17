@@ -1,0 +1,1 @@
+{{ @$row->payment_condition->name }}

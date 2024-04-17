@@ -1,0 +1,87 @@
+Array
+(
+    [external_shipping_id] => TRK023036155987
+    [external_shipping_reference] => 
+    [service_code] => wexpress_correios_std
+    [incoterms] => DDU
+    [dimensions_unit] => in
+    [weight_unit] => kg
+    [currency] => USD
+    [freight_value] => 0.01
+    [insurance_value] => 
+    [packages] => Array
+        (
+            [0] => Array
+                (
+                    [weight] => 29.00
+                    [width] => 10.00
+                    [length] => 10.00
+                    [height] => 120.00
+                )
+
+            [1] => Array
+                (
+                    [weight] => 10.00
+                    [width] => 12.12
+                    [length] => 10.00
+                    [height] => 15.00
+                )
+
+        )
+
+    [sender] => Array
+        (
+            [first_name] => PAULO XPTO
+            [last_name] => 0001
+            [website] => 
+            [address] => Array
+                (
+                    [address_line_1] => 10850 NW 21ST ST
+                    [address_line_2] => 
+                    [postal_code] => 33171
+                    [city] => MIAMI
+                    [state] => FL
+                    [country] => US
+                )
+
+        )
+
+    [recipient] => Array
+        (
+            [first_name] => HENRIQUE JOSE FERNANDES
+            [last_name] => LOURENçO
+            [tax_id_type] => CPF
+            [tax_id] => 12345678909
+            [email] => noreply@quickbox.pt
+            [phone] => 4133423911
+            [address] => Array
+                (
+                    [address_number] => 1
+                    [address_line_1] => AV. PAULISTA CJ 100, BELA VISTA
+                    [address_line_2] => 
+                    [postal_code] => 01310100
+                    [city] => SÃO PAULO
+                    [state] => SP
+                )
+
+        )
+
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [description] => teste
+                    [quantity] => 1
+                    [unit_value] => 120.00
+                )
+
+            [1] => Array
+                (
+                    [description] => Bens diversos
+                    [quantity] => 1
+                    [unit_value] => 10.00
+                )
+
+        )
+
+)

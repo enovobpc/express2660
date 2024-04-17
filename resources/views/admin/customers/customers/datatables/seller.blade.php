@@ -1,0 +1,1 @@
+{{ @$row->seller->name }}

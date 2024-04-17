@@ -1,0 +1,1 @@
+{{ $row->last_call }}

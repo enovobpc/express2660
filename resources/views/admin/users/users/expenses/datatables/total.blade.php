@@ -1,0 +1,1 @@
+<b data-total="{{ $row->total }}">{{ money($row->total, Setting::get('app_currency')) }}</b>

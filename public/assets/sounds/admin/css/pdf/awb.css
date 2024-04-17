@@ -1,0 +1,59 @@
+.awb-label{
+    font-family: 'Helvetica', 'Arial', Sans-Serif !important;
+    height: 100mm;
+    line-height: 9.2pt;
+    font-size: 8pt;
+    color: #000;
+}
+
+.awb-label .awb-no{
+    float: left;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-left: 2mm;
+}
+
+.awb-label .awb-no div{
+    float: left;
+}
+
+.awb-label .awb-content{
+    border: 1px solid #000;
+}
+
+.awb-label .awb-row .awb-block{
+    float: left;
+    padding: 2px 4px;
+}
+
+.awb-label .awb-block-title {
+    margin: 0;
+    padding: 0;
+    font-size: 7pt;
+    font-weight: normal;
+}
+
+.awb-label .awb-block-value {
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 2mm 0;
+    text-align: center;
+}
+
+
+.cmr-label {
+    font-family: 'Helvetica', 'Arial', Sans-Serif !important;
+    height: 100mm;
+    line-height: 9.2pt !important;
+    font-size: 8pt !important;
+    color: #000;
+}
+
+.cmr-label .cmr-row div {
+    float: left;
+}
+
+.cmr-label .cmr-block {
+    float: left;
+    padding: 2px 4px;
+}

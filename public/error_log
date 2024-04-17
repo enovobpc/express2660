@@ -1,0 +1,269 @@
+[21-Mar-2023 09:32:46 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:32:53 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:33:56 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:33:59 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:07 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:10 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:38 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:42 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:46 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:50 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:55 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:56 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:56 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:34:56 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:35:23 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:35:25 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:35:25 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:35:25 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:35:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:35:47 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[21-Mar-2023 09:35:58 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[29-Nov-2023 11:05:13 Europe/Lisbon] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/Admin/Logistic/InventoriesController.php on line 13
+[16-Dec-2023 11:49:47 Europe/Lisbon] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/Admin/Logistic/InventoriesController.php on line 13
+[18-Dec-2023 16:21:27 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:32 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:36 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:42 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:43 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:47 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:47 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:47 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:48 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:49 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:50 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:21:57 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[18-Dec-2023 16:22:05 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:234
+Stack trace:
+#0 /home2/express2660/public_html/2660express/app/Models/LogViewer.php(172): Illuminate\Support\Facades\Facade::__callStatic('method', Array)
+#1 /home2/express2660/public_html/2660express/app/Exceptions/Handler.php(38): App\Models\LogViewer::getTrace(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(301): App\Exceptions\Handler->report(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#3 /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(123): Illuminate\Foundation\Http\Kernel->reportException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#4 /home2/express2660/public_html/2660express/public/index.php(53): Illumin in /home2/express2660/public_html/2660express/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 234
+[10-Jan-2024 21:52:33 Europe/Lisbon] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/Admin/Logistic/InventoriesController.php on line 13
+[30-Jan-2024 14:23:42 Europe/Lisbon] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/Admin/Logistic/InventoriesController.php on line 13
+[30-Jan-2024 14:23:45 Europe/Lisbon] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/Admin/Logistic/InventoriesController.php on line 13
+[02-Feb-2024 10:03:44 Europe/Lisbon] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/Admin/Logistic/InventoriesController.php on line 13
+[02-Feb-2024 10:04:17 Europe/Lisbon] PHP Fatal error:  Cannot use App\Models\Customer as Customer because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/Admin/Logistic/InventoriesController.php on line 13
+[08-Feb-2024 09:51:29 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[08-Feb-2024 09:52:30 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[08-Feb-2024 12:05:07 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[08-Feb-2024 12:06:29 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[08-Feb-2024 12:07:39 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[08-Feb-2024 15:53:32 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16777224 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 164
+[08-Feb-2024 15:53:55 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[08-Feb-2024 15:56:15 Europe/Lisbon] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes) in /home2/express2660/public_html/2660express/vendor/phpoffice/phpexcel/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[02-Apr-2024 10:10:39 Europe/Lisbon] PHP Fatal error:  Cannot declare class App\Http\Controllers\Website\MainController, because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/TesteWebsite/MainController.php on line 285
+[02-Apr-2024 10:13:11 Europe/Lisbon] PHP Fatal error:  Cannot declare class App\Http\Controllers\Website\MainController, because the name is already in use in /home2/express2660/public_html/2660express/app/Http/Controllers/TesteWebsite/MainController.php on line 285

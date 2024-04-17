@@ -1,0 +1,73 @@
+.document-no{
+    float: left;
+    width: 50mm;
+}
+
+.address-box{
+    float: right;
+    width: 10cm;
+    height: 4cm;
+    border: 1px solid #999;
+    padding: 3mm;
+    line-height: 2;
+    margin-top: 2mm;
+    margin-bottom: 5mm;
+    border-radius: 4px;
+}
+
+.address-box .contacts{
+    float: left;
+    width: 66%;
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+.address-box .tax{
+    text-align: right;
+}
+
+.budget-items-box{
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 3px;
+    height: 135mm;
+}
+
+.budget-items-box table{
+    border-radius: 3px;
+}
+
+.document-alert{
+    float: left;
+    width: 80mm;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: -15px;
+}
+
+.pagination{
+    width: 3cm;
+    float: right;
+    padding-top: 12px;
+    margin-bottom: -15px;
+    margin-top: -15px;
+}
+
+.document-conditions{
+    padding-top: 3mm;
+    width: 120mm;
+    float: left;
+}
+
+.document-totals{
+    margin-top: 3mm;
+    font-size: 14pt !important;
+    width: 60mm;
+    float: right;
+}
+
+.document-totals h1{
+    padding: 0;
+    margin: 0;
+    color: red;
+}

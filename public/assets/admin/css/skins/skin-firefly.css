@@ -1,0 +1,233 @@
+/*
+ * Skin: firefly
+ * ----------
+ */
+
+.skin-firefly .main-header .navbar {
+  background-color: #1A5153;
+}
+.skin-firefly .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-firefly .main-header .navbar .nav > li > a:hover,
+.skin-firefly .main-header .navbar .nav > li > a:active,
+.skin-firefly .main-header .navbar .nav > li > a:focus,
+.skin-firefly .main-header .navbar .nav .open > a,
+.skin-firefly .main-header .navbar .nav .open > a:hover,
+.skin-firefly .main-header .navbar .nav .open > a:focus,
+.skin-firefly .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-firefly .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-firefly .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-firefly .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-firefly .main-header .navbar .sidebar-toggle:hover {
+  background-color: #216669;
+}
+@media (max-width: 767px) {
+  .skin-firefly .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-firefly .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-firefly .main-header .navbar .dropdown-menu li a:hover {
+    background: #367fa9;
+  }
+}
+.skin-firefly .main-header .logo {
+  background-color: #1A5153;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-firefly .main-header .logo:hover {
+  background-color: #216669;
+}
+.skin-firefly .main-header li.user-header {
+  background-color: #016B6B;
+}
+.skin-firefly .content-header {
+  background: transparent;
+}
+.skin-firefly .wrapper,
+.skin-firefly .main-sidebar,
+.skin-firefly .left-side {
+  background-color: #222d32;
+}
+.skin-firefly .user-panel > .info,
+.skin-firefly .user-panel > .info > a {
+  color: #fff;
+}
+.skin-firefly .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-firefly .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-firefly .sidebar-menu > li:hover > a,
+.skin-firefly .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #1A5153;
+}
+.skin-firefly .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-firefly .sidebar a {
+  color: #b8c7ce;
+}
+.skin-firefly .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-firefly .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-firefly .treeview-menu > li.active > a,
+.skin-firefly .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-firefly .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-firefly .sidebar-form input[type="text"],
+.skin-firefly .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-firefly .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-firefly .sidebar-form input[type="text"]:focus,
+.skin-firefly .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-firefly .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-firefly .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-firefly.layout-top-nav .main-header > .logo {
+  background-color: #3c8dbc;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-firefly.layout-top-nav .main-header > .logo:hover {
+  background-color: #3b8ab8;
+}
+.skin-firefly .modal-header {
+  background: #1A5153;
+}
+.modal-header {
+  background: #1A5153;
+  padding: 14px 15px 12px;
+}
+.modal-header h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.skin-firefly .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #1A5153;
+}
+
+
+/**
+ * LOGIN
+ */
+.skin-firefly .container-login100 a:hover {
+  color: #1A5153 !important;
+}
+
+.skin-firefly .btn-show-pass:hover,
+.skin-firefly .btn-show-pass.active {
+  color: #216669;
+  color: -webkit-linear-gradient(left, #1A5153, #216669);
+  color: -o-linear-gradient(left, #1A5153, #216669);
+  color: -moz-linear-gradient(left, #1A5153, #216669);
+  color: linear-gradient(left, #1A5153, #216669);
+}
+
+.skin-firefly .focus-input100::before {
+  background: #1A5153 !important;
+  background: -webkit-linear-gradient(left, #1A5153, #216669) !important;
+  background: -o-linear-gradient(left, #1A5153, #216669) !important;
+  background: -moz-linear-gradient(left, #1A5153, #216669) !important;
+  background: linear-gradient(left, #1A5153, #216669) !important;
+}
+
+.skin-firefly .login100-form-bgbtn {
+  background: #1A5153;
+  background: -webkit-linear-gradient(right, #1A5153, #216669, #1A5153, #216669);
+  background: -o-linear-gradient(right, #1A5153, #216669, #1A5153, #216669);
+  background: -moz-linear-gradient(right, #1A5153, #216669, #1A5153, #216669);
+  background: linear-gradient(right, #1A5153, #216669, #1A5153, #216669);
+}
+
+.skin-firefly .pretty input:checked~.state.p-primary label:after,
+.skin-firefly .pretty.p-toggle .state.p-primary label:after {
+  background-color: #1A5153 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.skin-firefly .btn-user span.username {
+  color: #1A5153 !important;
+}
+
+.account.skin-firefly .account-container .text-primary{
+  color: #1A5153 !important;
+}
+
+.account.skin-firefly .account-container .btn-primary{
+  background-color: #1A5153 !important;
+  border-color: #1A5153 !important;
+}
+
+.account.skin-firefly .account-container .btn-primary:hover,
+.account.skin-firefly .account-container .btn-primary:hover:active,
+.account.skin-firefly .account-container .btn-primary:active,
+.account.skin-firefly .account-container .btn-primary.hover {
+  background-color: #216669 !important;
+  border-color: #216669 !important;
+  color: #000 !important;
+}
+
+.account.skin-firefly .account-sidebar .list-group-item.active,
+.account.skin-firefly .account-sidebar .list-group-item.active:focus,
+.account.skin-firefly .account-sidebar .list-group-item.active:hover {
+  color: #1A5153 !important;
+}
+
+.account.skin-firefly .modal-header,
+.account.skin-firefly .customer-support .contact .icon{
+  background: #1A5153 !important;
+}
+
+.customer-support .contact {
+  border-color: #1A5153 !important;
+}

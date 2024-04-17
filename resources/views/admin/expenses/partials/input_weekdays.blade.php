@@ -1,0 +1,1 @@
+{{ Form::select('trigger_values[]', trans('datetime.list-weekday'), @$shippingExpense->trigger_values[$key], ['class' => 'form-control input-sm']) }}

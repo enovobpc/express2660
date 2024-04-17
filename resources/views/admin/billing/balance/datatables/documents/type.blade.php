@@ -1,0 +1,1 @@
+{{ trans('admin/billing.types.' . $row->doc_type) }}

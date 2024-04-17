@@ -1,0 +1,27 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | API Endpoint URL
+    |--------------------------------------------------------------------------
+    |
+    | This value is the name of your application. This value is used when the
+    | framework needs to place the application's name in a notification or
+    | any other location as required by the application or its packages.
+    */
+
+    'domain'   => env('API_DOMAIN', 'api.quickbox.test'),
+
+    'endpoint' => env('API_ENDPOINT', 'api.quickbox.test'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | API Version
+    |--------------------------------------------------------------------------
+    */
+    'version' => env('API_VERSION', 'v1'),
+
+
+];

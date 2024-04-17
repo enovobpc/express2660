@@ -1,0 +1,1 @@
+{{ trans('datetime.month-tiny.'.$month) }} {{ $year }}

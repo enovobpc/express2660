@@ -1,0 +1,220 @@
+/*
+ * Skin: Bordo
+ * ------------
+ */
+.skin-bordo .main-header .navbar {
+  background-color: #96374a;
+}
+.skin-bordo .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-bordo .main-header .navbar .nav > li > a:hover,
+.skin-bordo .main-header .navbar .nav > li > a:active,
+.skin-bordo .main-header .navbar .nav > li > a:focus,
+.skin-bordo .main-header .navbar .nav .open > a,
+.skin-bordo .main-header .navbar .nav .open > a:hover,
+.skin-bordo .main-header .navbar .nav .open > a:focus,
+.skin-bordo .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-bordo .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-bordo .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-bordo .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-bordo .main-header .navbar .sidebar-toggle:hover {
+  background-color: #8c2e40;
+}
+@media (max-width: 767px) {
+  .skin-bordo .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-bordo .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-bordo .main-header .navbar .dropdown-menu li a:hover {
+    background: #742736;
+  }
+}
+.skin-bordo .main-header .logo {
+  background-color: #752535;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-bordo .main-header .logo:hover {
+  background-color: #752535;
+}
+.skin-bordo .main-header li.user-header {
+  background-color: #752535;
+}
+.skin-bordo .content-header {
+  background: transparent;
+}
+.skin-bordo .wrapper,
+.skin-bordo .main-sidebar,
+.skin-bordo .left-side {
+  background-color: #222d32;
+}
+.skin-bordo .user-panel > .info,
+.skin-bordo .user-panel > .info > a {
+  color: #fff;
+}
+.skin-bordo .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-bordo .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-bordo .sidebar-menu > li:hover > a,
+.skin-bordo .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #742736;
+}
+.skin-bordo .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-bordo .sidebar a {
+  color: #b8c7ce;
+}
+.skin-bordo .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-bordo .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-bordo .treeview-menu > li.active > a,
+.skin-bordo .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-bordo .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-bordo .sidebar-form input[type="text"],
+.skin-bordo .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-bordo .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-bordo .sidebar-form input[type="text"]:focus,
+.skin-bordo .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-bordo .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-bordo .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.modal-header {
+  background: #8c2e40;
+}
+.modal-header h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.skin-bordo .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #8c2e40;
+}
+
+
+/**
+ * LOGIN
+ */
+.skin-bordo .container-login100 a:hover {
+  color: #8c2e40 !important;
+}
+
+.skin-bordo .btn-show-pass:hover,
+.skin-bordo .btn-show-pass.active {
+  color: #752535;
+  color: -webkit-linear-gradient(left, #8c2e40, #752535);
+  color: -o-linear-gradient(left, #8c2e40, #752535);
+  color: -moz-linear-gradient(left, #8c2e40, #752535);
+  color: linear-gradient(left, #8c2e40, #752535);
+}
+
+.skin-bordo .focus-input100::before {
+  background: #8c2e40 !important;
+  background: -webkit-linear-gradient(left, #8c2e40, #752535) !important;
+  background: -o-linear-gradient(left, #8c2e40, #752535) !important;
+  background: -moz-linear-gradient(left, #8c2e40, #752535) !important;
+  background: linear-gradient(left, #8c2e40, #752535) !important;
+}
+
+.skin-bordo .login100-form-bgbtn {
+  background: #8c2e40;
+  background: -webkit-linear-gradient(right, #8c2e40, #752535, #8c2e40, #752535);
+  background: -o-linear-gradient(right, #8c2e40, #752535, #8c2e40, #752535);
+  background: -moz-linear-gradient(right, #8c2e40, #752535, #8c2e40, #752535);
+  background: linear-gradient(right, #8c2e40, #752535, #8c2e40, #752535);
+}
+
+.skin-bordo .pretty input:checked~.state.p-primary label:after,
+.skin-bordo .pretty.p-toggle .state.p-primary label:after {
+  background-color: #8c2e40 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.account.skin-bordo .btn-user span.username {
+  color: #8c2e40 !important;
+}
+
+.account.skin-bordo .account-container .text-primary{
+  color: #8c2e40 !important;
+}
+
+.account.skin-bordo .account-container .btn-primary{
+  background-color: #8c2e40 !important;
+  border-color: #8c2e40 !important;
+}
+
+.account.skin-bordo .account-container .btn-primary:hover,
+.account.skin-bordo .account-container .btn-primary:hover:active,
+.account.skin-bordo .account-container .btn-primary:active,
+.account.skin-bordo .account-container .btn-primary.hover {
+  background-color: #752535 !important;
+  border-color: #752535 !important;
+  color: #fff !important;
+}
+
+.account.skin-bordo .account-sidebar .list-group-item.active,
+.account.skin-bordo .account-sidebar .list-group-item.active:focus,
+.account.skin-bordo .account-sidebar .list-group-item.active:hover {
+  color: #8c2e40 !important;
+}
+
+.account.skin-bordo .modal-header,
+.account.skin-bordo .customer-support .contact .icon{
+  background: #8c2e40 !important;
+}
+
+.customer-support .contact {
+  border-color: #8c2e40 !important;
+}

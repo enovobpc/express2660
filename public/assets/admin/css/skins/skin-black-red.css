@@ -1,0 +1,238 @@
+/*
+ * Skin: White
+ * ---------
+ */
+.skin-black-red .main-header .navbar {
+  background-color: #000;
+}
+
+.skin-black-red .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-black-red .main-header .navbar .nav > li > a:hover,
+.skin-black-red .main-header .navbar .nav > li > a:active,
+.skin-black-red .main-header .navbar .nav > li > a:focus,
+.skin-black-red .main-header .navbar .nav .open > a,
+.skin-black-red .main-header .navbar .nav .open > a:hover,
+.skin-black-red .main-header .navbar .nav .open > a:focus,
+.skin-black-red .main-header .navbar .nav > .active > a {
+  background: rgba(255, 255, 255, 0.2);
+  color: #f6f6f6;
+}
+.skin-black-red .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-black-red .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(255, 255, 255, 0.2);
+}
+.skin-black-red .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-black-red .main-header .navbar .sidebar-toggle:hover {
+  background-color: #333;
+}
+@media (max-width: 767px) {
+  .skin-black-red .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-black-red .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-black-red .main-header .navbar .dropdown-menu li a:hover {
+    background: #d73925;
+  }
+}
+.skin-black-red .main-header .logo {
+  background-color: #000;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-black-red .main-header .logo:hover {
+  background-color: #000;
+}
+.skin-black-red .main-header li.user-header {
+  background-color: #555;
+}
+.skin-black-red .content-header {
+  background: transparent;
+}
+.skin-black-red .wrapper,
+.skin-black-red .main-sidebar,
+.skin-black-red .left-side {
+  background-color: #4A4E4D;
+}
+.skin-black-red .user-panel > .info,
+.skin-black-red .user-panel > .info > a {
+  color: #fff;
+}
+.skin-black-red .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-black-red .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-black-red .sidebar-menu > li:hover > a,
+.skin-black-red .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #3b3f3e;
+  border-left-color: #f42434;
+}
+.skin-black-red .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #525655;
+}
+.skin-black-red .sidebar a {
+  color: #eee;
+}
+.skin-black-red .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-black-red .treeview-menu > li > a {
+  color: #aaa;
+}
+.skin-black-red .treeview-menu > li.active > a,
+.skin-black-red .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-black-red .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-black-red .sidebar-form input[type="text"],
+.skin-black-red .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.skin-black-red .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-black-red .sidebar-form input[type="text"]:focus,
+.skin-black-red .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-black-red .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-black-red .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+.modal-header {
+  background: #444;
+  border-bottom: 3px solid #f42434;
+  color: #fff;
+  padding: 14px 15px 12px;
+}
+
+.modal-header h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.modal-footer {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    margin: 40px auto;
+  }
+}
+
+.skin-black-red .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #f42434;
+}
+
+/**
+ * LOGIN
+ */
+.skin-black-red .container-login100 a:hover {
+  color: #f42434 !important;
+}
+
+.skin-black-red .btn-show-pass:hover,
+.skin-black-red .btn-show-pass.active {
+  color: #d73925;
+  color: -webkit-linear-gradient(left, #f42434, #d73925);
+  color: -o-linear-gradient(left, #f42434, #d73925);
+  color: -moz-linear-gradient(left, #f42434, #d73925);
+  color: linear-gradient(left, #f42434, #d73925);
+}
+
+.skin-black-red .focus-input100::before {
+  background: #f42434 !important;
+  background: -webkit-linear-gradient(left, #f42434, #d73925) !important;
+  background: -o-linear-gradient(left, #f42434, #d73925) !important;
+  background: -moz-linear-gradient(left, #f42434, #d73925) !important;
+  background: linear-gradient(left, #f42434, #d73925) !important;
+}
+
+.skin-black-red .login100-form-bgbtn {
+  background: #f42434;
+  background: -webkit-linear-gradient(right, #f42434, #d73925, #f42434, #d73925);
+  background: -o-linear-gradient(right, #f42434, #d73925, #f42434, #d73925);
+  background: -moz-linear-gradient(right, #f42434, #d73925, #f42434, #d73925);
+  background: linear-gradient(right, #f42434, #d73925, #f42434, #d73925);
+}
+
+.skin-black-red .pretty input:checked~.state.p-primary label:after,
+.skin-black-red .pretty.p-toggle .state.p-primary label:after {
+  background-color: #f42434 !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.skin-black-red .btn-user span.username {
+  color: #f42434 !important;
+}
+
+.account.skin-black-red .account-container .text-primary{
+  color: #f42434 !important;
+}
+
+.account.skin-black-red .account-container .btn-primary{
+  background-color: #f42434 !important;
+  border-color: #f42434 !important;
+}
+
+.account.skin-black-red .account-container .btn-primary:hover,
+.account.skin-black-red .account-container .btn-primary:hover:active,
+.account.skin-black-red .account-container .btn-primary:active,
+.account.skin-black-red .account-container .btn-primary.hover {
+  background-color: #d73925 !important;
+  border-color: #d73925 !important;
+  color: #fff !important;
+}
+
+.account.skin-black-red .account-sidebar .list-group-item.active,
+.account.skin-black-red .account-sidebar .list-group-item.active:focus,
+.account.skin-black-red .account-sidebar .list-group-item.active:hover {
+  color: #f42434 !important;
+}
+
+.account.skin-black-red .modal-header,
+.account.skin-black-red .customer-support .contact .icon{
+  background: #f42434 !important;
+}
+
+.customer-support .contact {
+  border-color: #f42434 !important;
+}

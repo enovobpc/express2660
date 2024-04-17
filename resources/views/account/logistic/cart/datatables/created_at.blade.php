@@ -1,0 +1,1 @@
+{{@$row->submitted_at}}

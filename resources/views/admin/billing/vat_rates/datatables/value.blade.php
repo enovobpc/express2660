@@ -1,0 +1,1 @@
+<b>{{ money($row->value, '%') }}</b>

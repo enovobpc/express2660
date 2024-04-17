@@ -1,0 +1,1 @@
+<i class="flag-icon flag-icon-{{ $row->locale }}"></i> {{ strtoupper($row->locale) }}

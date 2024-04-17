@@ -1,0 +1,1 @@
+{{ trans('admin/traceability.read-points.'.$row->action) }}

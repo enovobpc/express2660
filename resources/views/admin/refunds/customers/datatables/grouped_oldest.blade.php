@@ -1,0 +1,1 @@
+{{ @$row->oldest_date }}

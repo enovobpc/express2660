@@ -1,0 +1,1 @@
+{{ count($row->allowances->first()->shipments ?? []) }}

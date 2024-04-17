@@ -1,0 +1,1 @@
+<i class="fas fa-square bigger-140" style="color: {{ $row->color }}"></i>

@@ -1,0 +1,1 @@
+<span class="fas fa-square" style="color: {{ @$row->category->color }}"></span> {{ @$row->category->name }}

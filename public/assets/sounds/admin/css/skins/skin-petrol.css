@@ -1,0 +1,227 @@
+/*
+ * Skin: Blue Petrol
+ * ----------
+ */
+.skin-petrol .main-header .navbar {
+  background-color: #0c395b;
+}
+.skin-petrol .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-petrol .main-header .navbar .nav > li > a:hover,
+.skin-petrol .main-header .navbar .nav > li > a:active,
+.skin-petrol .main-header .navbar .nav > li > a:focus,
+.skin-petrol .main-header .navbar .nav .open > a,
+.skin-petrol .main-header .navbar .nav .open > a:hover,
+.skin-petrol .main-header .navbar .nav .open > a:focus,
+.skin-petrol .main-header .navbar .nav > .active > a {
+  background: rgba(255,255,255, 0.1);
+  color: #f6f6f6;
+}
+.skin-petrol .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-petrol .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-petrol .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-petrol .main-header .navbar .sidebar-toggle:hover {
+  background-color: #0c395b;
+}
+@media (max-width: 767px) {
+  .skin-petrol .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-petrol .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-petrol .main-header .navbar .dropdown-menu li a:hover {
+    background: #0c395b;
+  }
+}
+.skin-petrol .main-header .logo {
+  background-color: #0c395b;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-petrol .main-header .logo:hover {
+  background-color: #124c77;
+}
+.skin-petrol .main-header li.user-header {
+  background-color: #0c395b;
+}
+.skin-petrol .content-header {
+  background: transparent;
+}
+.skin-petrol .wrapper,
+.skin-petrol .main-sidebar,
+.skin-petrol .left-side {
+  background-color: #222d32;
+}
+.skin-petrol .user-panel > .info,
+.skin-petrol .user-panel > .info > a {
+  color: #fff;
+}
+.skin-petrol .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-petrol .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-petrol .sidebar-menu > li:hover > a,
+.skin-petrol .sidebar-menu > li.active > a {
+  color: #ffffff;
+  background: #1e282c;
+  border-left-color: #0c395b;
+}
+.skin-petrol .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-petrol .sidebar a {
+  color: #b8c7ce;
+}
+.skin-petrol .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-petrol .treeview-menu > li > a {
+  color: #8aa4af;
+}
+.skin-petrol .treeview-menu > li.active > a,
+.skin-petrol .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-petrol .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-petrol .sidebar-form input[type="text"],
+.skin-petrol .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-petrol .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-petrol .sidebar-form input[type="text"]:focus,
+.skin-petrol .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-petrol .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-petrol .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-petrol.layout-top-nav .main-header > .logo {
+  background-color: #0c395b;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-petrol.layout-top-nav .main-header > .logo:hover {
+  background-color: #3b8ab8;
+}
+.modal-header {
+  background: #148CBF;
+}
+.modal-header h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.skin-petrol .nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #148CBF;
+}
+
+/**
+ * LOGIN
+ */
+.skin-petrol .container-login100 a:hover {
+  color: #0c395b !important;
+}
+
+.skin-petrol .btn-show-pass:hover,
+.skin-petrol .btn-show-pass.active {
+  color: #124c77;
+  color: -webkit-linear-gradient(left, #0c395b, #124c77);
+  color: -o-linear-gradient(left, #0c395b, #124c77);
+  color: -moz-linear-gradient(left, #0c395b, #124c77);
+  color: linear-gradient(left, #0c395b, #124c77);
+}
+
+.skin-petrol .focus-input100::before {
+  background: #0c395b !important;
+  background: -webkit-linear-gradient(left, #0c395b, #124c77) !important;
+  background: -o-linear-gradient(left, #0c395b, #124c77) !important;
+  background: -moz-linear-gradient(left, #0c395b, #124c77) !important;
+  background: linear-gradient(left, #0c395b, #124c77) !important;
+}
+
+.skin-petrol .login100-form-bgbtn {
+  background: #0c395b;
+  background: -webkit-linear-gradient(right, #0c395b, #124c77, #0c395b, #124c77);
+  background: -o-linear-gradient(right, #0c395b, #124c77, #0c395b, #124c77);
+  background: -moz-linear-gradient(right, #0c395b, #124c77, #0c395b, #124c77);
+  background: linear-gradient(right, #0c395b, #124c77, #0c395b, #124c77);
+}
+
+.skin-petrol .pretty input:checked~.state.p-primary label:after,
+.skin-petrol .pretty.p-toggle .state.p-primary label:after {
+  background-color: #0c395b !important;
+}
+
+/**
+ * ACCOUNT
+ */
+.skin-petrol .btn-user span.username {
+  color: #0c395b !important;
+}
+
+.account.skin-petrol .account-container .text-primary{
+  color: #0c395b !important;
+}
+
+.account.skin-petrol .account-container .btn-primary{
+  background-color: #0c395b !important;
+  border-color: #0c395b !important;
+}
+
+.account.skin-petrol .account-container .btn-primary:hover,
+.account.skin-petrol .account-container .btn-primary:hover:active,
+.account.skin-petrol .account-container .btn-primary:active,
+.account.skin-petrol .account-container .btn-primary.hover {
+  background-color: #124c77 !important;
+  border-color: #124c77 !important;
+  color: #fff !important;
+}
+
+.account.skin-petrol .account-sidebar .list-group-item.active,
+.account.skin-petrol .account-sidebar .list-group-item.active:focus,
+.account.skin-petrol .account-sidebar .list-group-item.active:hover {
+  color: #0c395b !important;
+}
+
+.account.skin-petrol .modal-header,
+.account.skin-petrol .customer-support .contact .icon{
+  background: #0c395b !important;
+}
+
+.customer-support .contact {
+  border-color: #0c395b !important;
+}

@@ -1,0 +1,1 @@
+{{ trans('admin/fleet.trailers.types.'.$row->trailer_type) }}
