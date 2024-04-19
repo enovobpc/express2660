@@ -99,6 +99,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale().'/'.LaravelLocalizati
         ->name('website.signup.store');
 });
 
+//legal notes
+Route::get('avisos-legais/{slug?}', 'LegalController@index')
+->name('legal.show');
+   
 
 
 Route::get('/emailTest', 'Website\emailTestController@index')

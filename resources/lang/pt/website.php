@@ -95,25 +95,47 @@
         ],
         'services' => [
             'title' => 'SERVIÇOS',
-            'service01' => [
+            'storage' => [
                 'title' => 'Armazenagem',
-                'subtitle' => 'Disponibilizamos espaço para armazenamento em Palete ou em Caixas',
+                'description' => 'Disponibilizamos espaço para armazenamento em Palete ou em Caixas',
             ],
-            'service02' => [
+            'packing' => [
                 'title' => 'Embalamento e Etiquetagem',
-                'subtitle' => 'Estamos ao ser dispor para ajudar no embalamento e etiquetar todas as suas encomendas',
+                'description' => 'Estamos ao ser dispor para ajudar no embalamento e etiquetar todas as suas encomendas',
             ],
-            'service03' => [
+            'distribuition' => [
                 'title' => 'Distribuição',
-                'subtitle' => 'Tem uma encomenda para entregar? Temos uma vasta gama de serviços que incluem pagamento no acto de entrega',
+                'description' => 'Tem uma encomenda para entregar? Temos uma vasta gama de serviços que incluem pagamento no acto de entrega',
             ],
-            'service04' => [
+            'callcenter' => [
                 'title' => 'Call Center',
-                'subtitle' => 'Dispomos de serviço de call center para ajudar em tudo o que precisar',
+                'description' => 'Dispomos de serviço de call center para ajudar em tudo o que precisar',
             ],
-            'service05' => [
+            'ecommerce' => [
                 'title' => 'E-Commerce',
-                'subtitle' => 'Tratamos de todo o ciclo de logística e distribuição, incluindo logística reversa, reconciliação e remessas com pagamento no acto da entrega B2B e B2C',
+                'description' => 'Tratamos de todo o ciclo de logística e distribuição, incluindo logística reversa, reconciliação e remessas com pagamento no acto da entrega B2B e B2C',
+            ]
+        ],
+        'footer' =>[
+            'services' =>[
+                'title'=> 'Serviços',
+                'storage' => 'Armazenagem',
+                'distribuition' => 'Distribuição',
+                'callcenter' => 'Call Center',
+                'ecommerce' => 'E-Commerce',
+                'packing' =>'Embalamento e Etiquetagem'
+            ],
+            'contacts' => [
+                'title' => 'Contactos',
+                'recruitment' => 'Recrutamento',
+                'contacts' => 'Contactos',
+                'budget' => 'Pedir Orçamento'
+            ],
+            'company' => [
+                'title'=> 'Empresa',
+                'about'=> 'Sobre Nós',
+                'mission'=> 'Missão',
+                'values'=> 'Valores',
             ]
         ],
         'seo' => [

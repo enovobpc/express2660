@@ -1,12 +1,12 @@
 <header>
 
-    <nav class="nav navbar-expand-lg w-100 fixed-top" style="background: white; box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.25);">
-        <div class="container">
+    <nav class="nav navbar-expand-lg w-100 fixed-top">
+        <div class="container nav-container">
           <div class="navbar-short">
-            <a class="navbar-brand" href="/teste">
+            <a class="navbar-brand" href="/">
               <img class="logo_nav" src="/assets/img/logo/logo_sm.png" alt="Transcruzado Logo">         
             </a>
-          </div>
+        
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: auto;">
               <span class="navbar-toggler-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="40" class="bi bi-list" viewBox="0 0 16 16">
@@ -14,7 +14,7 @@
                 </svg>
               </span>
             </button>
-
+          </div>
           <div class="navbar-right m-auto navbar-collapse collapse p-15" id="navbarNav">
             <ul class="navbar-nav">
                 <!--<li class="nav-item dropdown">-->
@@ -49,8 +49,8 @@
                     </a>             
                     <div class="dropdown-menu nav-tabs" aria-labelledby="navbarDropdown">
                         <a href="{{route('contacts.index')}}"  class="dropdown-item" title="Carga Completa">Contactos</a>
-                        <a  href="{{route('recruitment.index')}}" class="dropdown-item" title="Temperatura Controlada">Pedir Orçamento</a>
-                        <a  href="{{route('budget.index')}}" class="dropdown-item" title="Transporte de Mudanças">Recrutamento</a>
+                        <a  href="{{route('budget.index')}}" class="dropdown-item" title="Temperatura Controlada">Pedir Orçamento</a>
+                        <a  href="{{route('recruitment.index')}}" class="dropdown-item" title="Transporte de Mudanças">Recrutamento</a>
                     </div>
                 </li>
                 
