@@ -215,7 +215,7 @@
     
     </div>
 </section>
-{{-- @include('partials.recruitment') --}}
+{{-- @include('website.partials.recruitment') --}}
 
 @stop
 @section ('styles')

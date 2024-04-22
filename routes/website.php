@@ -42,8 +42,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
     Route::get('contactos', 'Website\MainController@contacts')
         ->name('contacts.index');
         
-    Route::get('recrutamento', 'Website\MainController@recruitment')
-        ->name('recruitment.index');
+    // Route::get('recrutamento', 'Website\MainController@recruitment')
+    //     ->name('recruitment.index');
 
     Route::get('pedir-orçamento', 'Website\MainController@budget')
         ->name('budget.index');

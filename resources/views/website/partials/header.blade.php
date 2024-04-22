@@ -50,7 +50,7 @@
                     <div class="dropdown-menu nav-tabs" aria-labelledby="navbarDropdown">
                         <a href="{{route('contacts.index')}}"  class="dropdown-item" title="Carga Completa">Contactos</a>
                         <a  href="{{route('budget.index')}}" class="dropdown-item" title="Temperatura Controlada">Pedir Orçamento</a>
-                        <a  href="{{route('recruitment.index')}}" class="dropdown-item" title="Transporte de Mudanças">Recrutamento</a>
+                        {{-- <a  href="{{route('recruitment.index')}}" class="dropdown-item" title="Transporte de Mudanças">Recrutamento</a> --}}
                     </div>
                 </li>
                 

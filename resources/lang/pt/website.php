@@ -92,6 +92,12 @@
         'contacts' => [
             'title' => 'SAIBA ONDE ESTAMOS',
             'talk-to-us' => 'Fale Connosco!',
+            'form-placeholders' => [
+                'name' => 'Nome',
+                'email' => 'Email',
+                'phone' => 'Telefone',
+                'message'=> 'Mensagem',
+            ],
         ],
         'services' => [
             'title' => 'SERVIÇOS',

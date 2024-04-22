@@ -68,11 +68,11 @@
                             {{ trans('website.footer.contacts.title') }}
                         </a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a href="{{route('recruitment.index')}}">
                             {{ trans('website.footer.contacts.recruitment') }}
                         </a>
-                    </li>
+                    </li> --}}
                      <li>
                         <a href="{{route('contacts.index')}}">
                             {{ trans('website.footer.contacts.contacts') }}
