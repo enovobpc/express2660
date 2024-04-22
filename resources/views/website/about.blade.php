@@ -28,14 +28,9 @@
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-xl-5 class-recabout">
         <div class="rectangleab-about">
-            <h4 class="about-home">SOBRE NÓS</h4>
-            <h2 class="about2-home">A Viagem Cativante da 2660Express</h2>
-            <p class="textabout-home">2660 Express é uma empresa fundada em 2021 por profissionais com mais de 20 anos de experiência no setor da logística e distribuição. 
-                Desde 2010, focamos o nosso negócio na área de ecommerce e vendas online, prestando serviços a nível nacional e internacional.
-                A 2660 Express é especialista na Logística, Embalamento, Etiquetagem e distribuição para os produtos de E-Commerce para clientes B2B e B2C. <br>
-                O nosso armazém dispõe de todas as condições de segurança e ferramentas logísticas adequadas às mais diversas indústrias. 
-                Com a 2660 as suas encomendas estão em segurança nos mais exigentes padrões de qualidade em todo o processo de pick, pack e ship.
-            </p>
+            <h4 class="about-home">{{ trans('website.about.title') }}</h4>
+            <h2 class="about2-home">{{ trans('website.about.subtitle') }}</h2>
+            <p class="textabout-home">{{ trans('website.about.description') }}</p>
         </div>
         {{-- <img src="{{ asset('assets/website/img/sobre.png') }}" alt="sobre-nos"> --}}
     </div>
@@ -55,17 +50,17 @@
                         </svg>
                         <div class="row col-12" style=" padding-right: 0px; display: flex;  align-items: center; justify-content: space-between;">
                             <div class="col-4 text-mission-vision">
-                                <h4 class="about-home">A nossa missão</h4>
-                                <h2 class="about2-home">Fortalecemos laços comerciais </h2>
-                                <p class="textabout-home">Lorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumlorem</p>
+                                <h4 class="about-home">{{ trans('website.about.mission.title') }}</h4>
+                                <h2 class="about2-home">{{ trans('website.about.mission.subtitle') }}</h2>
+                                <p class="textabout-home">{{ trans('website.about.mission.description') }}</p>
                             </div>
                             <div class="col-4 icone-missionvission" style="display:flex; justify-content:center;">
                                 <img src="{{ asset('assets/website/img/mission-vision.svg') }}" alt="mission-vision" style="width:65%;">
                             </div>
                             <div class="col-4 text-mission-mission">
-                                <h4 class="about-home">A nossa visão</h4>
-                                <h2 class="about2-home">Fortalecemos laços comerciais </h2>
-                                <p class="textabout-home">Lorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumloremLorem ipsumlorem</p>
+                                <h4 class="about-home">{{ trans('website.about.vision.title') }}</h4>
+                                <h2 class="about2-home">{{ trans('website.about.vision.subtitle') }}</h2>
+                                <p class="textabout-home">{{ trans('website.about.vision.description') }}</p>
                             </div>
                         </div>
                 </div>

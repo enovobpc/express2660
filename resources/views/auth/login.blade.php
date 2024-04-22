@@ -12,18 +12,21 @@
 @stop
 
 @section('content')
-    <section class="header-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-7">
-                    <h1>Área do Cliente</h1>
-                </div>
-            </div>
+<section class="topo-about" style="height: 380px; position:relative; background: url('/assets/website/img/contactos-topo.png'); background-size: cover; background-position: bottom 0px left 0px; display: flex; align-items: flex-end; display: flex; align-items: center;">
+    <div class="col-sm-12 todos-topos">
+        <h1 class="text-top-about">Área de Cliente</h1>
+        <div style="display: flex; align-items: center; margin-top:15px;">
+            <p class="text-top2">HOME > </p>
+            <p class="text-top2" style="text-decoration: underline;">&nbspÁrea Cliente</p>
         </div>
-    </section>
+    </div>
+</section> 
     <section class="">
         <div class="container">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-md-offset-3">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-md-offset-3 m-t-50">
+                
+                <h1>Iniciar Sessão</h1>
+                <br>
                 @include('partials.alerts')
                 {{ Form::open(['route' => 'account.login.submit', 'method' => 'POST']) }}
                 <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">

@@ -74,16 +74,27 @@
         ],
         'about' => [
             'title' => 'SOBRE NÓS',
-            'subtitle' => 'OS NOSSOS VALORES',
-            'text01' => '2660 Express é uma empresa  fundada em 2021 por profissionais com mais de 20 anos de experiência no setor da logística e distribuição.',
-            'text02' => 'Desde 2010, focamos o nosso negócio na área de ecommerce e vendas online, prestando serviços a nível nacional e internacional.',
-            'text03' => 'A 2660 Express é especialista na Logística, Embalamento, Etiquetagem e distribuição para os produtos de E-Commerce para clientes B2B e B2C.',
-            'text04' => 'O nosso armazém dispõe de todas as condições de segurança e ferramentas logísticas adequadas às mais diversas indústrias. Com a 2660 as suas encomendas estão em segurança nos mais exigentes padrões de qualidade em todo o processo de pick, pack e ship.',
+            'subtitle' => 'A Viagem Cativante da 2660Express',
+            'description' => '2660 Express é uma empresa fundada em 2021 por profissionais com mais de 20 anos de experiência no setor da logística e distribuição. 
+            Desde 2010, focamos o nosso negócio na área de ecommerce e vendas online, prestando serviços a nível nacional e internacional.
+            A 2660 Express é especialista na Logística, Embalamento, Etiquetagem e distribuição para os produtos de E-Commerce para clientes B2B e B2C. <br>
+            O nosso armazém dispõe de todas as condições de segurança e ferramentas logísticas adequadas às mais diversas indústrias. 
+            Com a 2660 as suas encomendas estão em segurança nos mais exigentes padrões de qualidade em todo o processo de pick, pack e ship.',
             'value01' => 'Eficiencia',
             'value02' => 'Confiança',
             'value03' => 'Compromisso',
             'value04' => 'Segurança',
             'value05' => 'Simplicidade',
+            'mission' => [
+                'title'=> 'A nossa missão',
+                'subtitle'=> 'Fortalecemos laços comerciais',   
+                'description'=> 'Na 2660 Express, a nossa missão é simples: capacitar o sucesso dos nossos clientes através da entrega confiável, eficiente e inovadora. Movidos pela paixão pela logística, comprometemo-nos a oferecer serviços de embalagem, etiquetagem e distribuição que estejam em sintonia com as necessidades e expectativas em constante evolução do mercado.',
+            ],
+            'vision' => [
+                'title'=> 'A nossa visão',
+                'subtitle' => 'Fortalecemos laços comerciais',
+                'description' => 'Estamos comprometidos em liderar o caminho para uma indústria de comércio eletrônico mais eficiente, sustentável e centrada no cliente. A nossa visão é sermos reconhecidos como líderes de mercado, não apenas pela amplitude dos nossos serviços, mas pela qualidade inigualável e pela inovação que trazemos a cada etapa do processo logístico.',
+            ],
         ],
         'banner' => [
             'title' => '2660express',
