@@ -22,7 +22,7 @@
         </div>
     </div>
 </section> 
-<section class="sobre" >
+<section class="sobre row" >
     <div class="col-12 col-sm-12 col-md-7 col-xl-7 class-imagea">
         <img src="{{ asset('assets/website/img/img-about.png') }}" alt="sobre-nos" class="img2-about" style="width:100%;">
     </div>
@@ -197,7 +197,7 @@
     </div>
     
 </section>
-{{-- @include('partials.recruitment') --}}
+{{-- @include('partials.contacts') --}}
 @stop
 @section('styles')
     <style>

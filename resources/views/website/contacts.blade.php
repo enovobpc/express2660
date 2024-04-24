@@ -22,11 +22,21 @@
         </div>
     </div>
 </section> 
-<section class="sobre" >
+<section class="sobre row" >
+    <div class="col-12 col-sm-12 col-md-6 col-xl-6 class-recabout">
+        <div class="card-contacts " style="margin-right: -200px;">
+            <h4 class="about-home">Contactos</h4>
+            <h2 class="about2-home">Otimizamos espaço para o seu sucesso</h2>
+            <p class="textabout-home">{{trans('website.contacts.text')}}</p>
+        </div>
+        <div style="margin-right: -100px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.7851645946657!2d-9.138837406828122!3d38.44643099917402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd192f2546eb7a4f%3A0xcdd780f948ddb587!2s2660EXPRESS%20-%20Log%C3%ADstica%20e%20Distribui%C3%A7%C3%A3o%20Fulfillment%20Ecommerce!5e0!3m2!1spt-PT!2spt!4v1713882770518!5m2!1spt-PT!2spt" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
     <div class="col-12 col-sm-12 col-md-6 col-xl-6 classse-contacts">
-        <div class="rectangleab-contacts1">
-            <h4 class="about-home">FALE CONNOSCO</h4>
-            <h2 class="about2-home">Solucionamos o seu problema num <br> só clique</h2>
+        <div class="rectangleab-contacts1" style="margin-top: 80px;">
+            <h4 class="about-home text-uppercase">{{trans('website.contacts.title')}}</h4>
+            <h2 class="about2-home">{!!trans('website.contacts.subtitle')!!}</h2>
             <div class="contact-form">
                     {{ Form::open([ 'class' => 'ajax-form', 'required']) }}
                     <div class="row">
@@ -85,15 +95,7 @@
         
         </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-6 col-xl-6 class-recabout">
-        <div class="rectangleab-storage">
-            <h4 class="about-home">Contactos</h4>
-            <h2 class="about2-home">Otimizamos espaço para o seu sucesso</h2>
-            <p class="textabout-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget libero rutrum, feugiat ipsum et, condimentum nibh. Nullam vel condimentum ex. Ut finibus ligula eu tincidunt rhoncus. In ornare eleifend odio, sed feugiat sapien. Morbi nec augue non risus sollicitudin aliquam ut a ante. Nulla ac mi a lorem posuere finibus nec vitae nisl. Vestibulum pharetra consequat finibus. Cras ac leo id velit tristique hendrerit. Suspendisse ut enim turpis. Proin pulvinar lectus sit amet ex commodo ultrices. Phasellus ac porttitor elit. Nunc pharetra odio non gravida egestas. Nunc vel gravida nisl, viverra sagittis velit.
-            </p>
-        </div>
-        {{-- <img src="{{ asset('assets/website/img/sobre.png') }}" alt="sobre-nos"> --}}
-    </div>
+    
 </section>
 <section style="padding: 68px 84px 50px 84px;">
     <div class="row">

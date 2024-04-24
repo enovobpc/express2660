@@ -46,11 +46,11 @@
                                 {{ trans('website_global.menu.be-customer') }}
                             </a>
                         </li>
-                        <li>
+                        {{-- {<li>
                             <a href="{{ route('recruitment.index') }}" class="link-animated" title="{{ trans('website_global.menu.recruitment') }}">
                                 {{ trans('website_global.menu.recruitment') }}
                             </a>
-                        </li>
+                        </li>} --}}
                         <li>
                             <a href="{{ route('contacts.index') }}" class="link-animated" title="{{ trans('website_global.menu.contacts') }}">
                                 {{ trans('website_global.menu.contacts') }}

@@ -543,7 +543,6 @@ footer a:hover {
 
 /* página principal*/
 .text-carousel {
-  padding-left: 100px;
   padding-right: 0px;
   position: absolute;
   z-index: 1;
@@ -554,7 +553,7 @@ footer a:hover {
   font-size: 60px;
   font-weight: 500;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
 }
 .home-page {
   height: 95vh;
@@ -565,7 +564,6 @@ footer a:hover {
   border-radius: 11px;
   padding: 25px;
   box-shadow: 6px 6px 8px 0 rgb(0 0 0 / 10%);
-  width: 735px;
 }
 .green-tracking {
   color: #00491a !important;
@@ -619,6 +617,11 @@ input {
   flex-direction: row-reverse;
   justify-content: center;
 }
+
+ .last-rectangle::before{
+  background-color: transparent!important;
+}
+
 .rectangle::before {
   content: "";
   position: absolute;
@@ -689,12 +692,9 @@ input {
 }
 /* secção do sobre */
 .sobre {
-  height: 95vh;
-  margin-top: 100px;
+  margin: 100px 0 ;
 }
 .class-imagea {
-  display: flex;
-  justify-content: flex-start;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -703,7 +703,6 @@ input {
   padding-right: 100px;
 }
 .rectangle-about {
-  height: 484px;
   width: auto;
   padding: 70px;
   position: relative;
@@ -1136,6 +1135,16 @@ input {
 }
 
 /*página dos contactos*/
+
+.card-contacts {
+  padding: 70px 160px 70px 70px;
+  height: auto;
+  width: auto;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
+}
+
 .rectangleab-contacts1 {
   height: auto;
   width: auto;

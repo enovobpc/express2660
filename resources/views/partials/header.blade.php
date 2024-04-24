@@ -14,11 +14,11 @@
                                 {{ trans('website_global.menu.about-us') }}
                             </a>
                         </li>
-                       <li class="m-l-15">
+                       {{-- <li class="m-l-15">
                             <a href="{{ route('recruitment.index') }}" class="link-animated" title="{{ trans('website_global.menu.recruitment') }}">
                                 {{ trans('website_global.menu.recruitment') }}
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-5">

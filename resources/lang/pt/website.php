@@ -98,11 +98,12 @@
         ],
         'banner' => [
             'title' => '2660express',
-            'subtitle' => 'O seu parceiro de Logística e Distribuição',
+            'subtitle' => 'A cada entrega, <br> solidficamos a confiança.',
         ],
         'contacts' => [
-            'title' => 'SAIBA ONDE ESTAMOS',
-            'talk-to-us' => 'Fale Connosco!',
+            'title' => 'Fale Connosco',
+            'subtitle' => 'Solucionamos o seu problema num <br> só clique',
+            'text' => 'Estamos aqui para ajudar. Tem alguma dúvida, solicitação ou apenas quer saber mais sobre nossos serviços? Preencha o formulário e entraremos em contato o mais breve possível. Sua satisfação é a nossa prioridade.',
             'form-placeholders' => [
                 'name' => 'Nome',
                 'email' => 'Email',
