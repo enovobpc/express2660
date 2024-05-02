@@ -83,8 +83,9 @@ body {
 }
 
 .dropdown:hover > .dropdown-menu {
-  display: block;
-  top: 100%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
 }
 
 .dropdown > .dropdown-toggle:active {
@@ -145,13 +146,19 @@ body {
 
 @media (max-width: 991px) {
   .nav {
-    margin: unset;
     box-shadow: none !important;
   }
 
   .nav-container {
     width: 100% !important;
-    margin:0!important
+    margin:0!important;
+    max-width: unset!important;
+    padding: 10px;
+    transition: 0.3s;
+  }
+
+  .text-green {
+    font-size: 50px io !important;
   }
 
 }
@@ -339,7 +346,7 @@ nav .nav-link:focus {
     height: 34px;
   }
   .navbar-nav {
-    display: block !important;
+    display: flex !important;
     text-align: center !important;
     flex-direction: column;
     padding-left: 0;
@@ -350,7 +357,7 @@ nav .nav-link:focus {
 }
 @media (max-width: 768px) {
   .navbar-nav {
-    display: block;
+    display: flex;
     text-align: center;
     flex-direction: column;
     padding-left: 0;
@@ -361,7 +368,7 @@ nav .nav-link:focus {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-nav {
-    display: block;
+    display: flex;
     text-align: center;
     flex-direction: column;
     padding-left: 0;
@@ -781,11 +788,7 @@ input {
     }
 }
 
-.recrutment-home {
-  height: auto;
-  display: flex;
-}
-.recrutamento10-home {
+.contact-us{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1059,6 +1062,13 @@ input {
   color: #4f903d !important;
 }
 
+.btn-services a {
+  color: white;
+}
+.btn-services:hover a {
+  color: #4f903d !important;
+}
+
 .section-sobre:hover .btn-services {
   background: #ffffff;
   color: #4f903d !important;
@@ -1137,27 +1147,30 @@ input {
 /*página dos contactos*/
 
 .card-contacts {
-  padding: 70px 160px 70px 70px;
+  margin-top: 140px;
+  padding: 60px;
   height: auto;
   width: auto;
   position: relative;
-  background-color: #ffffff;
+  background: url('/assets/website/img/green-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
 }
 
 .rectangleab-contacts1 {
   height: auto;
   width: auto;
-  padding: 70px 160px 70px 70px;
+  padding: 70px;
   position: relative;
+  margin-right: -110px;
+  padding-right: 125px;
   /* margin-top: 25%; */
   /* margin-left: -27%; */
   background-color: #ffffff;
   box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
 }
-.classse-contacts {
-  padding-left: 0px;
-}
+
 
 /* código antigo*/
 /* .footer {
@@ -1219,20 +1232,20 @@ textarea.input-lg {
 
 .btn-lg {
   padding: 12px 12px;
-
   font-size: 18px !important;
 }
 
 .form-control {
-  font-size: 1em !important;
-
+  font-size: 18px !important;
   outline: 0px !important;
-
   -webkit-appearance: none;
-
   box-shadow: none !important;
-
   margin-right: 30px !important;
+}
+
+.form-group-lg .form-control {
+  font-size: 18px !important;
+  padding: 16px 16px 16px 5px !important;
 }
 
 /*
@@ -1247,65 +1260,43 @@ textarea.input-lg {
 
 .group-track {
   padding-top: 5px;
-
   padding-bottom: 5px;
-
   padding-left: 40px;
-
   position: absolute;
-
   z-index: 995;
-
   margin-top: 40vh;
-
   width: 60%;
-
   border-radius: 25px;
 }
 
 .main-text {
   color: #20a54f;
-
   font-weight: bold;
-
   text-align: left;
-
   font-size: 55px;
-
   text-shadow: 1px 1px 7px black;
-
   line-height: 55px;
 }
 
 .second-text {
   color: white;
-
   font-size: 40px;
-
   text-align: left;
-
   margin-top: -25px;
-
   line-height: 45px;
 }
 
 .primary-header {
   font-size: 14px;
-
   background: #eaedf0;
-
   position: relative;
 }
 
 .primary-header a {
   display: block;
-
   color: #58595b;
-
   font-weight: 400;
-
   padding: 5px 0 5px;
-
   height: 32px;
 }
 
@@ -1317,19 +1308,12 @@ textarea.input-lg {
 
 .primary-header .login-btn {
   background: #354b36;
-
   position: relative;
-
   z-index: 9;
-
   overflow: hidden;
-
   color: #ffffff !important;
-
   font-size: 14px !important;
-
   font-weight: bold;
-
   text-align: center;
 
   text-transform: uppercase;
@@ -1573,6 +1557,19 @@ textarea.input-lg {
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+  .card-contacts {
+    margin-top: 20px;
+    padding: 50px;
+  }
+
+  .rectangleab-contacts1{
+    margin-right: unset;
+    padding: 50px;
+  }
+
+  .contacts-container{
+    margin-top: unset;
   }
 }
 
@@ -1993,6 +1990,15 @@ textarea.input-lg {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+  .footer-img {
+    padding: 50px;
+  }
+
+  .tracking-class {
+    display: unset;
+    margin-top: 20px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -2261,9 +2267,6 @@ textarea.input-lg {
   margin-bottom: 0;
 }
 
-img {
-  float: right;
-}
 
 /*--------------------------------------------------------------
 
@@ -2430,6 +2433,12 @@ img {
 
   margin-left: -30px;
 }
+
+.contacts-container {
+  margin-top: 100px; 
+  margin-bottom: 100px !important; 
+  display: block!important;
+} 
 
 @media (max-width: 600px) {
   .contact-detail:after {

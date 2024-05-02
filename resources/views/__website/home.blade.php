@@ -81,19 +81,19 @@
                         <p>
 
                                 <div class="col-md-5ths" style="color:white;margin-bottom: 30px">
-                                   <i class="fas fa-check" style="margin-left:0%;"></i>	&nbsp;	&nbsp;&nbsp;&nbsp;{{ trans('website.about.value01') }}<br/> 
+                                   <i class="fas fa-check" style="margin-left:0%;"></i>	&nbsp;	&nbsp;&nbsp;&nbsp;{{ trans('website.about.values.value01') }}<br/> 
                                 </div>
                                 <div class="col-md-5ths" style="color:white;margin-bottom: 30px">
-                                    <i class="fas fa-check"></i> &nbsp;&nbsp;&nbsp;{{ trans('website.about.value02') }}<br/>
+                                    <i class="fas fa-check"></i> &nbsp;&nbsp;&nbsp;{{ trans('website.about.values.value02') }}<br/>
                                 </div>
                                 <div class="col-md-5ths" style="color:white;margin-bottom: 30px">
-                                    <i class="fas fa-check"></i> {{ trans('website.about.value03') }}<br/>
+                                    <i class="fas fa-check"></i> {{ trans('website.about.values.value03') }}<br/>
                                 </div>
                                 <div class="col-md-5ths" style="color:white;margin-bottom: 30px">
-                                    <i class="fas fa-check"></i> {{ trans('website.about.value04') }}<br/>
+                                    <i class="fas fa-check"></i> {{ trans('website.about.values.value04') }}<br/>
                                 </div>
                                 <div class="col-md-5ths" style="color:white;margin-bottom: 30px">
-                                    <i class="fas fa-check"></i> {{ trans('website.about.value05') }}<br/>
+                                    <i class="fas fa-check"></i> {{ trans('website.about.values.value05') }}<br/>
                                 </div>
                         </p>
                     </div>

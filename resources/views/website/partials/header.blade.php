@@ -7,7 +7,7 @@
               <img class="logo_nav" src="/assets/img/logo/logo_sm.png" alt="Transcruzado Logo">         
             </a>
         
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: auto;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="margin-left: auto; float: right; margin-right: 10px;">
               <span class="navbar-toggler-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="40" class="bi bi-list" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -17,15 +17,12 @@
           </div>
           <div class="navbar-right m-auto navbar-collapse collapse p-15" id="navbarNav">
             <ul class="navbar-nav">
-                <!--<li class="nav-item dropdown">-->
-                <!--    <a href="/" class="nav-link" style="color: #cf1300;">Início</a>-->
-                <!--</li>-->
                 <li class="nav-item dropdown">
                     <a href="{{ route('about.index')}}" class="nav-link" style="color: #cf1300;">Empresa</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link" style="color: #cf1300; display:flex; flex-direction:row; align-items:center;">
+                    <a class="nav-link" type="button" data-toggle="navbarDropdown" style="color: #cf1300; display:flex; justify-content:center; align-items:center;">
                         <snap>Serviços</snap>
                         <span class="caret"></span> 
                     </a>  
@@ -40,17 +37,16 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('tracking.index')}}" class="nav-link"style="color: #cf1300;">Seguir Envio</a>
+                    <a href="{{ route('tracking.index')}}" class="nav-link" style="color: #cf1300;">Seguir Envio</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" style="color: #cf1300; display:flex; flex-direction:row; align-items:center;">
+                    <a class="nav-link" type="button" style="color: #cf1300; display:flex; justify-content:center; align-items:center;" data-toggle="navbarDropdown">
                         <snap>Contactos</snap>
                         <span class="caret"></span> 
                     </a>             
                     <div class="dropdown-menu nav-tabs" aria-labelledby="navbarDropdown">
                         <a href="{{route('contacts.index')}}"  class="dropdown-item" title="Carga Completa">Contactos</a>
                         <a  href="{{route('budget.index')}}" class="dropdown-item" title="Temperatura Controlada">Pedir Orçamento</a>
-                        {{-- <a  href="{{route('recruitment.index')}}" class="dropdown-item" title="Transporte de Mudanças">Recrutamento</a> --}}
                     </div>
                 </li>
                 
@@ -62,12 +58,12 @@
                 </li>
 
                 <li class="nav-item dropdown" >
-                  <a href="#" style="color: #cf1300;" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-right: 0!important">
+                  <a href="#" type="button" style="color: #cf1300;" class="dropdown-toggle nav-link" data-toggle="navbarDropdown2" role="button" aria-haspopup="true" aria-expanded="false" style="padding-right: 0!important">
                       <i class="flag-icon flag-icon-{{ App::getLocale() }}"></i>
                       <span class="text-uppercase">{{ App::getLocale() }}</span>
                       {{-- <span class="caret text-white"></span> --}}
                   </a>
-                  <ul class="dropdown-menu" style="background: #ffffff !important;">
+                  <ul class="dropdown-menu" style="background: #ffffff !important;" aria-labelledby="navbarDropdown2">
                       @foreach(trans('locales') as $key => $locale)
                           <li>
                               <a href="/{{ $key }}" class="{{ $key == App::getLocale() ? 'active' : '' }}">

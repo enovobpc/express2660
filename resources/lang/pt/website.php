@@ -66,6 +66,9 @@
             'remember' => 'Memorizar',
             'forgot'   => 'Recuperar palavra-passe?'
         ],
+        'btns'=>[
+            'see-more'=> 'Ver mais >',
+        ],
         'tracking' => [
             'title' => 'Seguir envio',
             'subtitle' => 'Coloque em baixo o número da sua encomenda para acompanhar todos os estados.',
@@ -73,6 +76,7 @@
             'follow' => 'Seguir'
         ],
         'about' => [
+            'maintitle' => 'Empresa',
             'title' => 'SOBRE NÓS',
             'subtitle' => 'A Viagem Cativante da 2660Express',
             'description' => '2660 Express é uma empresa fundada em 2021 por profissionais com mais de 20 anos de experiência no setor da logística e distribuição. 
@@ -80,11 +84,34 @@
             A 2660 Express é especialista na Logística, Embalamento, Etiquetagem e distribuição para os produtos de E-Commerce para clientes B2B e B2C. <br>
             O nosso armazém dispõe de todas as condições de segurança e ferramentas logísticas adequadas às mais diversas indústrias. 
             Com a 2660 as suas encomendas estão em segurança nos mais exigentes padrões de qualidade em todo o processo de pick, pack e ship.',
-            'value01' => 'Eficiencia',
-            'value02' => 'Confiança',
-            'value03' => 'Compromisso',
-            'value04' => 'Segurança',
-            'value05' => 'Simplicidade',
+            'values' => [
+                'title'=> 'Valores',
+                'subtitle'=> 'Os valores que definem <br> a nossa empresa',
+                'value01' => [
+                    'title'=> 'Eficiencia',
+                    'description'=> 'Desde o processamento rápido das encomendas até à entrega pontual, cada etapa do nosso serviço é otimizada para garantir uma operação eficiente e sem contratempos.',
+                ],
+                'value02' => [
+                    'title'=> 'Confiança',
+                    'description'=> 'Cada entrega é mais do que um pacote, é um compromisso com a confiabilidade, garantindo que cada cliente possa contar conosco para superar as suas expectativas.',
+                ],
+                'value03' => [
+                    'title'=> 'Compromisso',
+                    'description'=> 'Não nos contentamos com menos do que o melhor, e estamos empenhados em superar as expectativas dos nossos clientes em cada serviço que prestamos.',
+                ],
+                'value04' => [
+                    'title'=> 'Segurança',
+                    'description'=> 'Investimos em tecnologia de ponta e em práticas rigorosas de segurança para garantir que cada envio seja tratado com os mais altos padrões de proteção e cuidado.',
+                ],
+                'value05' => [
+                    'title'=> 'Simplicidade',
+                    'description'=> 'Tornamos o processo logístico o mais simples possível para os nossos clientes, oferecendo soluções intuitivas e transparentes que tornam cada etapa da jornada do cliente fácil e livre de complicações.',
+                ],
+            ],
+            'partners' => [
+                'title'=> 'Os nossos parceiros',
+                'subtitle'=> 'Obrigada por fazer parte da nossa história',
+            ],
             'mission' => [
                 'title'=> 'A nossa missão',
                 'subtitle'=> 'Fortalecemos laços comerciais',   
@@ -101,8 +128,9 @@
             'subtitle' => 'A cada entrega, <br> solidficamos a confiança.',
         ],
         'contacts' => [
+            'maintitle' => 'Contactos',
             'title' => 'Fale Connosco',
-            'subtitle' => 'Solucionamos o seu problema num <br> só clique',
+            'subtitle' => 'Solucionamos o seu problema num só clique',
             'text' => 'Estamos aqui para ajudar. Tem alguma dúvida, solicitação ou apenas quer saber mais sobre nossos serviços? Preencha o formulário e entraremos em contato o mais breve possível. Sua satisfação é a nossa prioridade.',
             'form-placeholders' => [
                 'name' => 'Nome',
@@ -110,9 +138,16 @@
                 'phone' => 'Telefone',
                 'message'=> 'Mensagem',
             ],
+            'required' => 'Campos de preenchimento obrigatório.',
+            'rgpd' => 'Li e aceito os <a style="color: #337731" target="_blank">Termos e Condições</a>&nbspe a&nbsp<a style="color: #337731"  target="_blank">Política de Privacidade</a>.',
+            'card-contacts' => [
+                'title' => 'Contacte-nos',
+                'subtitle' => 'Estamos Aqui para Si! Tire as Suas Dúvidas ou Deixe-nos o seu Feedback.',
+            ]
         ],
         'services' => [
-            'title' => 'SERVIÇOS',
+            'title' => 'Serviços',
+            'subtitle' => 'Descubra a Excelência <br> dos Nossos Serviços de Transporte',
             'storage' => [
                 'title' => 'Armazenagem',
                 'description' => 'Disponibilizamos espaço para armazenamento em Palete ou em Caixas',
@@ -132,6 +167,32 @@
             'ecommerce' => [
                 'title' => 'E-Commerce',
                 'description' => 'Tratamos de todo o ciclo de logística e distribuição, incluindo logística reversa, reconciliação e remessas com pagamento no acto da entrega B2B e B2C',
+            ],
+            'steps'=> [
+                'step01' => [
+                    'title' => 'Selecione o Serviço',
+                    'description' => 'Selecione o serviço mais adquado a sua necessidade'
+                ],
+                'step02' => [
+                    'title' => 'Faça o seu pedido',
+                    'description' => 'Entre em contacto ou peça um orçamento'
+                ],
+                'step03' => [
+                    'title' => 'Recolhemos a encomenda',
+                    'description' => 'Recolhemos o seu pacote no local desejadobla'
+                ],
+                'step04' => [
+                    'title' => 'Armazenamos a encomenda',
+                    'description' => 'Armazenamos o pacote nos nossos armazens'
+                ],
+                'step05' => [
+                    'title' => 'Embalamos e etiquetamos',
+                    'description' => 'Preparamos o seu pacote para uma maior segurança  para ser entregue'
+                ],
+                'step06' => [
+                    'title' => 'Fazer a entrega',
+                    'description' => 'Fazemos a entrega com a maior segurança e puficionalismo'
+                ],
             ]
         ],
         'footer' =>[
