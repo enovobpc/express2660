@@ -30,12 +30,12 @@
         <div class="rectangleab-about">
             <h4 class="about-home">{{ trans('website.about.title') }}</h4>
             <h2 class="about2-home">{{ trans('website.about.subtitle') }}</h2>
-            <p class="textabout-home">{{ trans('website.about.description') }}</p>
+            <p class="textabout-home">{!! trans('website.about.description') !!}</p>
         </div>
     </div>
 </section>
 <section class="mission-vision">
-        <div class="col-12 hidden-md" style="padding-left: 0px; padding-right: 0px;">
+        {{-- <div class="col-12" style="padding-left: 0px; padding-right: 0px;">
             <div class="row">
                 <div class="h-75 d-inline-block col-1" style="margin-top:60px;">
                     <h1 class="text-vertical1 text-uppercase">{{trans('webiste.about.mission.title')}}</h1>
@@ -67,11 +67,43 @@
                     <h1 class="text-vertical2 text-uppercase">{{trans('website.about.vision.title')}}</h1>
                 </div>                
             </div>
+        </div> --}}
+
+        <div class="row" style="padding-left: 0px; padding-right: 0px;">
+                <div class="h-75 d-inline-block col-md-1 col-xs-12 mission-side-text" >
+                    <h1 class="text-vertical1 text-uppercase">{{trans('website.about.mission.title')}}</h1>
+                </div>
+                <div class="col-md-10 col-sm-12">
+                    <div class="col-sm-12" style="position: relative">
+                            <div class="col-md-6 col-xs-12 text-mission-vision" >
+                                <h4 class="about-home">{{ trans('website.about.mission.title') }}</h4>
+                                <h2 class="about2-home">{{ trans('website.about.mission.subtitle') }}</h2>
+                                <p class="textabout-home">{{ trans('website.about.mission.description') }}</p>
+                            </div>
+                            <div class="col-xs-12 visible-lg icone-missionvission" style="z-index: 2; position:absolute; margin-left:auto; margin-right: auto; display:flex; justify-content:center;">
+                                <img src="{{ asset('assets/website/img/mission-vision.svg') }}" alt="mission-vision" style="height: 380px; margin-top: 120px; padding-right: 50px;">
+                            </div>
+
+                            <div class="h-auto d-inline-block vision-up-text col-sm-1 col-xs-12" style="align-content: flex-end;" >
+                                <h1 class="text-vertical2 text-uppercase">{{trans('website.about.vision.title')}}</h1>
+                            </div>   
+                            <div class="col-md-6 col-xs-12 text-mission-mission">
+                                <h4 class="about-home">{{ trans('website.about.vision.title') }}</h4>
+                                <h2 class="about2-home">{{ trans('website.about.vision.subtitle') }}</h2>
+                                <p class="textabout-home">{{ trans('website.about.vision.description') }}</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="h-auto d-inline-block vision-side-text col-md-1 col-xs-12" style="align-content: flex-end;" >
+                    <h1 class="text-vertical2 text-uppercase">{{trans('website.about.vision.title')}}</h1>
+                </div>      
         </div>
+
+
         <div class="values row">
             <div class="col-12 col-sm-12 col-md-12 col-xl-4">
-                <h4 class="values-about text-uppercase">{{trans('website.about.partners.title')}}</h4>
-                <h2 class="values-aboutsu text-uppercase">{!!trans('website.about.partners.subtitle')!!}</h2>
+                <h4 class="values-about text-uppercase">{{trans('website.about.values.title')}}</h4>
+                <h2 class="values-aboutsu text-uppercase">{!!trans('website.about.values.subtitle')!!}</h2>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-xl-4">
                 <div style="display: flex; justify-content: center; align-items: center;">
@@ -182,11 +214,11 @@
         </div>
     </div>
    
-    <div class="empresas row" style="padding: 50px 300px 50px 300px;">
-        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%; padding: 30px;">
-        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%; padding: 30px;">
-        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%; padding: 30px;">
-        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%; padding: 30px;">
+    <div class="empresas row">
+        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%;">
+        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%;">
+        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%;">
+        <img class="col-3"src="{{ asset('assets/website/img/via-direta.svg') }}" alt="asterisco" style="width:100%;">
     </div>
     
 </section>

@@ -24,34 +24,32 @@
 </section> 
 <section class="services-passo ">
     <div class="row">
-        <div class="h-75 col-12 col-xs-12 col-sm-6 col-md-4 col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px;">
+        <div class="h-75 col-12 col-xs-12 col-sm-6 col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px;">
             <img src="{{ asset('assets/website/img/passos-1.svg') }}" alt="passo-1" style="width: 50%;">
             <h3 class="service1-text">{{trans('website.services.steps.step01.title')}}</h3>
             <p class="text-pservice">{{trans('website.services.steps.step01.description')}}</p>
         </div>
-        <div class="h-75 col-12 col-xs-12 col-sm-6 col-md-4 col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px;">
+        <div class="h-75 col-12 col-xs-12 col-sm-6  col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px;">
             <img src="{{ asset('assets/website/img/passo2.svg') }}" alt="passo-1" style="width: 50%;">
             <h3 class="service1-text">{{trans('website.services.steps.step02.title')}}</h3>
             <p class="text-pservice">{{trans('website.services.steps.step02.description')}}</p>
         </div>
-        <div class="h-75 col-12 col-xs-12 col-sm-6 col-md-4 col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px;">
+        <div class="h-75 col-12 col-xs-12 col-sm-6  col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px;">
             <img src="{{ asset('assets/website/img/passo-3.svg') }}" alt="passo-1" style="width: 50%;">
             <h3 class="service1-text">{{trans('website.services.steps.step03.title')}}</h3>
             <p class="text-pservice">{{trans('website.services.steps.step03.description')}}</p>
         </div>
-    </div>
-    <div class="row">
-        <div class="h-75 col-12 col-xs-12 col-sm-6 col-md-4 col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px; margin-top:40px;">
+        <div class="h-75 col-12 col-xs-12 col-sm-6  col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px; margin-top:40px;">
             <img src="{{ asset('assets/website/img/passo4.svg') }}" alt="passo-1" style="width: 50%;">
             <h3 class="service1-text">{{trans('website.services.steps.step04.title')}}</h3>
             <p class="text-pservice">{{trans('website.services.steps.step04.description')}}</p>
         </div>
-        <div class="h-75 col-12 col-xs-12 col-sm-6 col-md-4 col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px; margin-top:40px;">
+        <div class="h-75 col-12 col-xs-12 col-sm-6  col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px; margin-top:40px;">
             <img src="{{ asset('assets/website/img/passo5.svg') }}" alt="passo-1" style="width: 50%;">
             <h3 class="service1-text">{{trans('website.services.steps.step05.title')}}</h3>
             <p class="text-pservice">{{trans('website.services.steps.step05.description')}}</p>
         </div>
-        <div class="h-75 col-12 col-xs-12 col-sm-6 col-md-4 col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px; margin-top:40px;">
+        <div class="h-75 col-12 col-xs-12 col-sm-6  col-xl-4" style="display: flex; flex-direction: column; align-items: center; padding-left: 30px; padding-right: 30px; margin-top:40px;">
             <img src="{{ asset('assets/website/img/passo6.svg') }}" alt="passo-1" style="width: 50%;">
             <h3 class="service1-text">{{trans('website.services.steps.step06.title')}}</h3>
             <p class="text-pservice">{{trans('website.services.steps.step06.description')}}</p>

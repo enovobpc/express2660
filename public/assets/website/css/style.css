@@ -85,7 +85,7 @@ body {
 .dropdown:hover > .dropdown-menu {
   display: grid;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 .dropdown > .dropdown-toggle:active {
@@ -101,6 +101,20 @@ body {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
+}
+
+
+@media (max-width: 991px) {
+  
+  .dropdown:hover > .dropdown-menu {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #follow {
+    display: flex;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -160,6 +174,11 @@ body {
   .text-green {
     font-size: 50px io !important;
   }
+
+  .services-home {
+    padding:30px!important;
+  }
+  
 
 }
 .navbar-nav {
@@ -377,9 +396,6 @@ nav .nav-link:focus {
     padding: 20px;
   }
 
-  .class-texto2{
-    padding-bottom: ;
-  }
 }
 .nav .open > a,
 .nav .open > a:focus,
@@ -739,7 +755,7 @@ input {
   height: auto;
   display: flow-root;
   margin-top: 0px;
-  padding: 80px 100px 167px 100px;
+  padding: 80px 50px 167px 100px;
   background: radial-gradient(#77b44f, #00491a);
 }
 .servicestitle-home {
@@ -776,10 +792,8 @@ input {
 }
 .class-texto2 {
   position: absolute;
-  /* padding: 48px; */
-  /* padding: 49px 48px 100px 48px; */
-  padding: 28px 25px 31px 40px;
-  margin-top: 45px;
+  padding: 40px 25px 31px 40px;
+    margin-top: 45px;
 }
 
 @media screen and (min-width: 1700px) {
@@ -838,7 +852,7 @@ input {
   font-weight: 300;
 }
 .rectangleab-about {
-  height: 595px;
+  height: auto;
   width: auto;
   padding: 70px;
   position: relative;
@@ -856,6 +870,70 @@ input {
   margin-left: -27%;
   background-color: #ffffff;
   box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
+}
+
+.empresas img {
+  padding: 30px;
+}
+
+.empresas {
+  padding: 50px 300px 50px 300px;
+}
+
+@media(min-width: 768px) {
+  .vision-up-text {
+    display: none !important;
+  }
+}
+
+@media(max-width: 768px) {
+  .text-vertical1 {
+    transform: unset !important;
+  }
+  .text-vertical2 {
+    transform: unset !important;
+  }
+  .vision-side-text {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px){
+  .empresas img {
+    padding: 10px;
+  }
+
+  .empresas {
+    padding: 10px;
+  }
+
+  .comments {
+    margin-bottom: 100px;
+    padding: 50px 20px !important;
+  }
+
+  .values {
+    padding: 50px 20px !important;
+  }
+
+  .rectangle-comments {
+    padding: 25px !important;
+  }
+
+  .mission-vision {
+    padding: 50px !important;
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .text-mission-mission {
+    padding-left: 5%!important;
+  }
+
+  .text-mission-vision {
+    padding-right: 5%!important;
+  }
 }
 
 @media (min-width: 1900px) and (max-width: 1932px) {
@@ -889,9 +967,7 @@ input {
     margin-top: -811px !important;
     flex-direction: column;
   }
-  .text-mission-mission {
-    margin-top: -700px !important;
-  }
+ 
   .class-texto2 {
     position: absolute;
     /* padding: 48px; */
@@ -927,22 +1003,26 @@ input {
 .text-mission-vision {
   position: relative;
   display: flex;
-  padding: 0px 0px 0px 86px;
-  margin-top: -691px;
+  padding: 50px;
   flex-direction: column;
+  padding-right: 25%;
+  background: white; 
+  box-shadow: -55px 55px #3d6a4c, -55px -55px #3d6a4c;
 }
 .text-mission-mission {
   position: relative;
   display: flex;
-  padding: 0px 100px 0px 0px;
-  margin-top: -560px;
+  padding: 50px;
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
+  padding-left: 25%;
+  margin-top: 80px; 
+  background: white; 
+  box-shadow: 55px 55px #3d6a4c, 55px -55px #3d6a4c;
 }
 .icone-missionvission {
   position: relative;
-  margin-top: -797px;
 }
 .values {
   margin-top: 100px;
@@ -1029,10 +1109,11 @@ input {
 }
 .service1-text {
   color: #337731;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 600;
   font-style: italic;
   margin-top: 20px;
+  text-align: center;
 }
 .text-pservice {
   text-align: center;
@@ -1080,7 +1161,7 @@ input {
 .section-sobre{
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .services-home .col {
@@ -1998,6 +2079,18 @@ textarea.input-lg {
   .tracking-class {
     display: unset;
     margin-top: 20px;
+  }
+
+  .class-recabout {
+    padding: unset;;
+  }
+
+  .rectangle-about,  .rectangleab-about{
+    padding: 45px;
+    margin: 7%;
+  }
+  .parte-baixo{
+    padding: 20px !important;
   }
 }
 

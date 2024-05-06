@@ -143,6 +143,10 @@
             'card-contacts' => [
                 'title' => 'Contacte-nos',
                 'subtitle' => 'Estamos Aqui para Si! Tire as Suas Dúvidas ou Deixe-nos o seu Feedback.',
+            ],
+            'section'=> [
+                'title' => 'Contacte-nos para consultar serviços especiais',
+                'subtitle' => 'Não consegue encontrar um serviço que corresponda <br> às suas necessidades?'
             ]
         ],
         'services' => [
@@ -171,27 +175,27 @@
             'steps'=> [
                 'step01' => [
                     'title' => 'Selecione o Serviço',
-                    'description' => 'Selecione o serviço mais adquado a sua necessidade'
+                    'description' => 'Escolha entre uma variedade de soluções logísticas adaptadas às suas necessidades'
                 ],
                 'step02' => [
                     'title' => 'Faça o seu pedido',
-                    'description' => 'Entre em contacto ou peça um orçamento'
+                    'description' => 'Faça o seu pedido de forma rápida e fácil, com apenas alguns cliques'
                 ],
                 'step03' => [
                     'title' => 'Recolhemos a encomenda',
-                    'description' => 'Recolhemos o seu pacote no local desejadobla'
+                    'description' => 'Agendamos a recolha da sua encomenda onde e quando for conveniente para si'
                 ],
                 'step04' => [
                     'title' => 'Armazenamos a encomenda',
-                    'description' => 'Armazenamos o pacote nos nossos armazens'
+                    'description' => 'Armazenamos a sua encomenda com segurança em nossas instalações adequadas'
                 ],
                 'step05' => [
                     'title' => 'Embalamos e etiquetamos',
-                    'description' => 'Preparamos o seu pacote para uma maior segurança  para ser entregue'
+                    'description' => 'Preparamos cuidadosamente cada item para envio, garantindo segurança e integridade durante o transporte'
                 ],
                 'step06' => [
                     'title' => 'Fazer a entrega',
-                    'description' => 'Fazemos a entrega com a maior segurança e puficionalismo'
+                    'description' => 'Entregamos a sua encomenda de forma rápida e confiável, onde quer que seja necessário'
                 ],
             ]
         ],

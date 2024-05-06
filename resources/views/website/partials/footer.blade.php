@@ -4,15 +4,15 @@
             <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 logo-footer">
                 <img src="{{ asset('assets/img/logo/logo.svg') }}" class="logo">  
                 <div class="locat-footer" style="margin-bottom:10px;">
-                    <img src="{{ asset('assets/website/img/localizacao2.svg') }}"  style="margin-right:15px; width: 40px;">
+                    <img src="{{ asset('assets/website/img/localizacao2-green.svg') }}"  style="margin-right:15px; width: 40px;">
                     <p class="text-footer">Estrada Nacional 3792970-129 Sesimbra</p>
                 </div>
                 <div class="locat-footer" style="margin-bottom:10px;">
-                    <img src="{{ asset('assets/website/img/mensagens-footer.svg') }}"  style="margin-right:15px; width: 45px;">
+                    <img src="{{ asset('assets/website/img/mensagens-footer-green.svg') }}"  style="margin-right:15px; width: 45px;">
                     <p class="text-footer">+351 960399003</p>
                 </div>
                 <div class="locat-footer" style="margin-bottom:30px;">
-                    <img src="{{ asset('assets/website/img/telefone-footer.svg') }}"  style="margin-right:15px; width: 40px;">
+                    <img src="{{ asset('assets/website/img/telefone-footer-green.svg') }}"  style="margin-right:15px; width: 40px;">
                     <p class="text-footer">geral@2660express.pt</p>
                 </div> 
                 <div class="locat-footer" style="margin-bottom:10px;">
@@ -68,11 +68,6 @@
                             {{ trans('website.footer.contacts.title') }}
                         </a>
                     </li>
-                    {{-- <li>
-                        <a href="{{route('recruitment.index')}}">
-                            {{ trans('website.footer.contacts.recruitment') }}
-                        </a>
-                    </li> --}}
                      <li>
                         <a href="{{route('contacts.index')}}">
                             {{ trans('website.footer.contacts.contacts') }}
