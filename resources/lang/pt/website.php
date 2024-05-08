@@ -155,22 +155,32 @@
             'storage' => [
                 'title' => 'Armazenagem',
                 'description' => 'Disponibilizamos espaço para armazenamento em Palete ou em Caixas',
+                'pageSubtitle' => 'aaaa',
+                'longDescription' => 'Na 2660 Express, oferecemos soluções de armazenagem flexíveis e adaptadas às suas necessidades específicas. Com um armazém equipado com as mais recentes tecnologias e operado por uma equipa dedicada, garantimos a segurança e o controlo rigoroso dos seus produtos. Independentemente do tamanho ou da complexidade dos seus itens, podemos fornecer o espaço e os recursos necessários para armazenar os seus bens com eficiência e confiança.'
             ],
             'packing' => [
                 'title' => 'Embalamento e Etiquetagem',
                 'description' => 'Estamos ao ser dispor para ajudar no embalamento e etiquetar todas as suas encomendas',
+                'pageSubtitle' => 'Otimizamos espaço para o seu sucesso',
+                'longDescription' => 'O embalamento e etiquetagem são partes essenciais do nosso processo logístico na 2660 Express. Utilizamos técnicas avançadas e materiais de alta qualidade para embalar os seus produtos de forma segura e protegida durante o transporte. Além disso, a etiquetagem precisa e personalizada garante que cada item seja identificado corretamente e rastreado em cada etapa do processo, garantindo uma gestão eficiente do stock e uma entrega pontual aos seus clientes.'
             ],
             'distribuition' => [
                 'title' => 'Distribuição',
                 'description' => 'Tem uma encomenda para entregar? Temos uma vasta gama de serviços que incluem pagamento no acto de entrega',
+                'pageSubtitle' => '',
+                'longDescription' => 'A distribuição é a nossa especialidade na 2660 Express. Com uma rede de transporte abrangente e eficiente, garantimos que as suas encomendas cheguem ao seu destino final de forma rápida e segura. Desde a gestão de inventário até à entrega porta a porta, cuidamos de cada detalhe do processo para garantir uma experiência de distribuição perfeita para os nossos clientes, tanto a nível nacional como internacional.'
             ],
             'callcenter' => [
                 'title' => 'Call Center',
                 'description' => 'Dispomos de serviço de call center para ajudar em tudo o que precisar',
+                'pageSubtitle' => '',
+                'longDescription' => 'O nosso call center na 2660 Express é mais do que apenas um serviço de apoio ao cliente. É o ponto central da nossa comunicação com os nossos clientes. Com uma equipa dedicada e especializada, estamos sempre disponíveis para responder às suas perguntas, resolver problemas e fornecer assistência personalizada em tempo real. Com um atendimento profissional e cortês, garantimos uma experiência de serviço ao cliente de primeira classe em todos os momentos.'
             ],
             'ecommerce' => [
                 'title' => 'E-Commerce',
                 'description' => 'Tratamos de todo o ciclo de logística e distribuição, incluindo logística reversa, reconciliação e remessas com pagamento no acto da entrega B2B e B2C',
+                'pageSubtitle' => '',
+                'longDescription' => 'Na 2660 Express, estamos na vanguarda do comércio eletrónico. Com soluções personalizadas e integradas, ajudamos a impulsionar o seu negócio online para o sucesso. Desde a gestão de stock até à entrega final, oferecemos uma gama completa de serviços logísticos para apoiar o crescimento do seu e-commerce. Com uma abordagem centrada no cliente e na inovação, estamos comprometidos em ajudá-lo a alcançar os seus objetivos de negócio online, fornecendo soluções eficazes e escaláveis para as suas necessidades logísticas.'
             ],
             'steps'=> [
                 'step01' => [
@@ -197,6 +207,16 @@
                     'title' => 'Fazer a entrega',
                     'description' => 'Entregamos a sua encomenda de forma rápida e confiável, onde quer que seja necessário'
                 ],
+            ],
+            'qualities' => [
+                'title' => 'Qualidades',
+                'subtitle' => 'As qualidades dos nossos serviços',
+                'security' => 'Segurança no armazenamento',
+                'organization'=> 'Organização Eficiente',
+                'rastreability' => 'Rastreamento e Inventário',
+                'eficiency' => 'Eficiência Operacional',
+                'flexibility'=> 'Flexibilidade de armazenamento',
+                'maintenence'=> 'Manutenção Adequada',
             ]
         ],
         'footer' =>[

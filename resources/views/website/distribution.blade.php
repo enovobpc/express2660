@@ -15,11 +15,11 @@
 @section('content')
 <section class="topo-about" style="height: 380px; position:relative; background: url('/assets/website/img/topo-servicos.png'); background-size: cover; background-position: bottom 0px left 0px; display: flex; align-items: flex-end; display: flex; align-items: center;">
     <div class="col-sm-12 todos-topos">
-        <h1 class="text-top-about">Distribuição</h1>
+        <h1 class="text-top-about">{{trans('website.services.distribuition.title')}}</h1>
         <div style="display: flex; align-items: center; margin-top:15px;">
             <p class="text-top2">HOME > </p>
             <p class="text-top2">&nbspServiços > </p>
-            <p class="text-top2" style="text-decoration: underline;">&nbspDistribuição</p>
+            <p class="text-top2" style="text-decoration: underline;">&nbsp{{trans('website.services.distribuition.title')}}</p>
         </div>
     </div>
 </section> 
@@ -29,10 +29,9 @@
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-xl-5 class-recabout">
         <div class="rectangleab-storage">
-            <h4 class="about-home">Distribuição</h4>
+            <h4 class="about-home">{{trans('website.services.distribuition.title')}}</h4>
             <h2 class="about2-home">Otimizamos espaço para o seu sucesso</h2>
-            <p class="textabout-home">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget libero rutrum, feugiat ipsum et, condimentum nibh. Nullam vel condimentum ex. Ut finibus ligula eu tincidunt rhoncus. In ornare eleifend odio, sed feugiat sapien. Morbi nec augue non risus sollicitudin aliquam ut a ante. Nulla ac mi a lorem posuere finibus nec vitae nisl. Vestibulum pharetra consequat finibus. Cras ac leo id velit tristique hendrerit. Suspendisse ut enim turpis. Proin pulvinar lectus sit amet ex commodo ultrices. Phasellus ac porttitor elit. Nunc pharetra odio non gravida egestas. Nunc vel gravida nisl, viverra sagittis velit.
-            </p>
+            <p class="textabout-home">{{trans('website.services.distribuition.longDescription')}} </p>
         </div>
         {{-- <img src="{{ asset('assets/website/img/sobre.png') }}" alt="sobre-nos"> --}}
     </div>
@@ -40,8 +39,8 @@
 <section style="padding: 68px 84px 50px 84px;">
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-xl-8" style="padding-left:0px;">
-            <h4 class="about-home">Qualidades</h4>
-            <h2 class="storage-text2">As qualidades dos nossos serviços (....... <br>........)</h2>
+            <h4 class="about-home">{{trans('website.services.qualities.title')}}</h4>
+            <h2 class="storage-text2">{{trans('website.services.qualities.subtitle')}}</h2>
             <div class="row" style="margin-top: 30px;">
                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6" style="padding-left:0px;">
                     <div class="rectangle-storage">
@@ -62,7 +61,7 @@
                                 </defs>
                             </svg>
                         </div>
-                        <p class="qualitis-storage">Segurança no armazenamento</p>
+                        <p class="qualitis-storage">{{trans('website.services.qualities.security')}}</p>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6" style="padding-right:0px;">
@@ -73,7 +72,7 @@
                             </svg>
 
                         </div>
-                        <p class="qualitis-storage">Organização Eficiente</p>
+                        <p class="qualitis-storage">{{trans('website.services.qualities.organization')}}</p>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 class-qualidades3" style="padding-left:0px;">
@@ -93,7 +92,7 @@
                             </svg>
 
                         </div>
-                        <p class="qualitis-storage">Rastreamento e Inventário</p>
+                        <p class="qualitis-storage">{{trans('website.services.qualities.rastreability')}}</p>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 class-qualidades3" style="padding-right:0px;">
@@ -106,7 +105,7 @@
                             </svg>
 
                         </div>
-                        <p class="qualitis-storage">Eficiência Operacional</p>
+                        <p class="qualitis-storage">{{trans('website.services.qualities.eficiency')}}</p>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 class-qualidades3" style="padding-left:0px;">
@@ -128,7 +127,7 @@
                                 </defs>
                             </svg>
                         </div>
-                        <p class="qualitis-storage">Flexiblidade de armazenamento</p>
+                        <p class="qualitis-storage">{{trans('website.services.qualities.flexibility')}}</p>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 class-qualidades3" style="padding-right:0px;">
@@ -146,7 +145,7 @@
                                 </defs>
                             </svg>
                         </div>
-                        <p class="qualitis-storage">Manutenção Adequada</p>
+                        <p class="qualitis-storage">{{trans('website.services.qualities.maintenence')}}</p>
                     </div>
                 </div>
             </div>

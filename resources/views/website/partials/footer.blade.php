@@ -27,7 +27,7 @@
                     </a>
                 </div>                 
             </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-xl-2" style="display:flex; justify-content: flex-start!important; padding-top:30px;">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-xl-2 footer-list" style="display:flex; justify-content: flex-start!important;">
                 <ul class="small-txt af-light">
                     <li>
                         <a style="font-size: 20px; font-weight: 500; color:#00491A !important;" href="{{route('services.index')}}">
@@ -61,7 +61,7 @@
                     </li>                                    
                 </ul>
             </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-xl-2" style="display:flex; justify-content: flex-start!important; padding-top:30px;">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-xl-2 footer-list" style="display:flex; justify-content: flex-start!important;">
                 <ul class="small-txt af-light">
                     <li>
                         <a href="{{route('contacts.index')}}" style="font-size: 20px; font-weight: 500; color:#00491A !important;">
@@ -80,7 +80,7 @@
                     </li>                                                
                 </ul>
             </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-xl-2" style="display:flex; justify-content: flex-start!important; padding-top:30px;">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-xl-2 footer-list" style="display:flex; justify-content: flex-start!important;">
                 <ul class="small-txt af-light">
                     <li>
                         <a  style="font-size: 20px; font-weight: 500; color:#00491A !important;">

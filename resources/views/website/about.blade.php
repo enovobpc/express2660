@@ -76,11 +76,13 @@
                 <div class="col-md-10 col-sm-12">
                     <div class="col-sm-12" style="position: relative">
                             <div class="col-md-6 col-xs-12 text-mission-vision" >
+                                <div class="vision-shadow"></div>
                                 <h4 class="about-home">{{ trans('website.about.mission.title') }}</h4>
                                 <h2 class="about2-home">{{ trans('website.about.mission.subtitle') }}</h2>
                                 <p class="textabout-home">{{ trans('website.about.mission.description') }}</p>
+                                <div class="shadow-cover"></div>
                             </div>
-                            <div class="col-xs-12 visible-lg icone-missionvission" style="z-index: 2; position:absolute; margin-left:auto; margin-right: auto; display:flex; justify-content:center;">
+                            <div class="col-xs-12 visible-lg icone-missionvission" style="z-index: 2; position:absolute; margin-left:auto; margin-right: auto; display:flex !important; justify-content:center;">
                                 <img src="{{ asset('assets/website/img/mission-vision.svg') }}" alt="mission-vision" style="height: 380px; margin-top: 120px; padding-right: 50px;">
                             </div>
 

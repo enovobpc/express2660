@@ -109,6 +109,20 @@
     </div>
 </section>
 
+
+<div class="shadowContainer">
+    <div class="shadow"></div>
+    <div class="shadowContent">
+        <div class="containerSmall">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac consequat ligula. Aliquam finibus risus a rutrum volutpat. Donec tempus iaculis maximus. Ut scelerisque tortor in semper dictum. Fusce ullamcorper risus eget diam fermentum ultrices. Maecenas pharetra pellentesque urna, bibendum volutpat justo. Aliquam egestas odio quis purus ornare sollicitudin.
+Etiam mattis orci id ante vehicula vehicula. Sed consequat interdum orci aliquet dapibus. Proin pharetra luctus pharetra. Sed iaculis nibh nulla, eu consectetur libero vulputate at. Interdum et malesuada fames ac ante ipsum primis in faucibus. In eu risus justo. Aliquam egestas risus mi, sit amet vehicula nibh lobortis rhoncus. Nullam justo justo, faucibus tristique aliquam a, tristique imperdiet tellus. Nulla facilisi.
+Proin mauris libero, blandit nec risus eget, efficitur laoreet magna. Donec nulla sapien, laoreet mattis sem eu, ultrices luctus turpis. Donec sed leo nec nibh dignissim placerat auctor at ante. Nunc faucibus sit amet libero et luctus. Pellentesque non nulla scelerisque, sollicitudin dolor posuere, blandit libero. Donec ullamcorper leo eget semper egestas. Phasellus pharetra lacus sapien, at sagittis libero molestie sit amet. In sodales neque sit amet blandit aliquet. Proin vitae dolor nisi. Nunc aliquam felis aliquam, ornare neque luctus, blandit neque.
+        </div>
+    </div>
+    <div class="shadowCover"></div>
+</div>
+
+
 <div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.7851645946657!2d-9.138837406828122!3d38.44643099917402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd192f2546eb7a4f%3A0xcdd780f948ddb587!2s2660EXPRESS%20-%20Log%C3%ADstica%20e%20Distribui%C3%A7%C3%A3o%20Fulfillment%20Ecommerce!5e0!3m2!1spt-PT!2spt!4v1713882770518!5m2!1spt-PT!2spt" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
@@ -535,6 +549,47 @@
             }
         }
         
+
+        .shadowContainer {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  overflow: visible;
+  position: relative;
+  background-color: white;
+}
+.shadowContainer .shadow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.shadowContainer .shadowContent {
+  position: relative;
+  z-index: 3;
+}
+.shadowContainer .shadowCover {
+  position: absolute;
+  top: -30px;
+  bottom: -30px;
+  left: -30px;
+  right: -30px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,ffffff+100&0+0,1+100 */
+  background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, white 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, white 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, white 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#ffffff',GradientType=0);
+  /* IE6-9 */
+  z-index: 2;
+}
     </style>
 @stop
 
