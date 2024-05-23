@@ -802,15 +802,9 @@ input {
 }
 .class-texto2 {
   position: absolute;
-  padding: 55px 25px 31px 40px;
-    margin-top: 45px;
 }
 
-@media screen and (min-width: 1700px) {
-    .class-texto2 {
-        padding-bottom: 95px!important;
-    }
-}
+
 
 .contact-us{
   display: flex;
@@ -980,10 +974,6 @@ input {
  
   .class-texto2 {
     position: absolute;
-    /* padding: 48px; */
-    padding: 49px 48px 100px 48px;
-    /* padding: 28px 25px 31px 40px; */
-    margin-top: 45px;
   }
 }
 .mission-vision {
@@ -1165,6 +1155,10 @@ input {
 
 .section-sobre:hover .btn-services {
   background: #ffffff;
+}
+
+.section-sobre:hover .btn-services a {
+
   color: #4f903d !important;
 }
 
@@ -1173,7 +1167,7 @@ input {
 }
 .section-sobre{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -2963,3 +2957,9 @@ textarea.input-lg {
   /* IE6-9 */
   z-index: 2;
 }
+
+
+
+
+
+
