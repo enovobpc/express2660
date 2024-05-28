@@ -15,11 +15,11 @@
 @section('content')
 <section class="topo-about" style="height: 380px; position:relative; background: url('/assets/website/img/topo-servicos.png'); background-size: cover; background-position: bottom 0px left 0px; display: flex; align-items: flex-end; display: flex; align-items: center;">
     <div class="col-sm-12 todos-topos">
-        <h1 class="text-top-about">{{trans('website.services.packing.title')}}</h1>
+        <h1 class="text-top-about">{{trans('website.services.api.title')}}</h1>
         <div style="display: flex; align-items: center; margin-top:15px;">
             <p class="text-top2">HOME > </p>
             <p class="text-top2">&nbspServiços > </p>
-            <p class="text-top2" style="text-decoration: underline;">&nbspEmbalamento e Etiquetagem</p>
+            <p class="text-top2" style="text-decoration: underline;">&nbsp{{trans('website.services.api.title')}}</p>
         </div>
     </div>
 </section> 
@@ -29,9 +29,9 @@
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-xl-5 class-recabout">
         <div class="rectangleab-storage">
-            <h4 class="about-home">{{ trans('website.services.packing.title') }}</h4>
-            <h2 class="about2-home">{{ trans('website.services.packing.pageSubtitle') }}</h2>
-            <p class="textabout-home">{{trans('website.services.packing.longDescription')}}</p>
+            <h4 class="about-home">{{trans('website.services.api.title')}}</h4>
+            <h2 class="about2-home">Otimizamos espaço para o seu sucesso</h2>
+            <p class="textabout-home">{{trans('website.services.api.longDescription')}} </p>
         </div>
         {{-- <img src="{{ asset('assets/website/img/sobre.png') }}" alt="sobre-nos"> --}}
     </div>

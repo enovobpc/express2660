@@ -100,6 +100,25 @@ class MainController extends \App\Http\Controllers\Website\Controller
         return $this->setContent('website.callcenter');
     }
 
+
+    public function devolutions()
+    {
+        $this->menuOption = 'devolutions';
+        return $this->setContent('website.devolutions');
+    }
+
+    public function api()
+    {
+        $this->menuOption = 'api';
+        return $this->setContent('website.api');
+    }
+
+    public function charge()
+    {
+        $this->menuOption = 'charge';
+        return $this->setContent('website.charge');
+    }
+
     /**
      * Show servic E-commerce page
      *

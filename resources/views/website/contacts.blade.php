@@ -110,17 +110,7 @@
 </section>
 
 
-<div class="shadowContainer">
-    <div class="shadow"></div>
-    <div class="shadowContent">
-        <div class="containerSmall">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac consequat ligula. Aliquam finibus risus a rutrum volutpat. Donec tempus iaculis maximus. Ut scelerisque tortor in semper dictum. Fusce ullamcorper risus eget diam fermentum ultrices. Maecenas pharetra pellentesque urna, bibendum volutpat justo. Aliquam egestas odio quis purus ornare sollicitudin.
-Etiam mattis orci id ante vehicula vehicula. Sed consequat interdum orci aliquet dapibus. Proin pharetra luctus pharetra. Sed iaculis nibh nulla, eu consectetur libero vulputate at. Interdum et malesuada fames ac ante ipsum primis in faucibus. In eu risus justo. Aliquam egestas risus mi, sit amet vehicula nibh lobortis rhoncus. Nullam justo justo, faucibus tristique aliquam a, tristique imperdiet tellus. Nulla facilisi.
-Proin mauris libero, blandit nec risus eget, efficitur laoreet magna. Donec nulla sapien, laoreet mattis sem eu, ultrices luctus turpis. Donec sed leo nec nibh dignissim placerat auctor at ante. Nunc faucibus sit amet libero et luctus. Pellentesque non nulla scelerisque, sollicitudin dolor posuere, blandit libero. Donec ullamcorper leo eget semper egestas. Phasellus pharetra lacus sapien, at sagittis libero molestie sit amet. In sodales neque sit amet blandit aliquet. Proin vitae dolor nisi. Nunc aliquam felis aliquam, ornare neque luctus, blandit neque.
-        </div>
-    </div>
-    <div class="shadowCover"></div>
-</div>
+
 
 
 <div>

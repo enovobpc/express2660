@@ -38,6 +38,15 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
     Route::get('serviço-ecommerce', 'Website\MainController@ecommerce')
         ->name('ecommerce.index');
 
+    Route::get('serviço-cobranca', 'Website\MainController@charge')
+        ->name('charge.index');
+
+    Route::get('serviço-devolucao', 'Website\MainController@devolutions')
+        ->name('devolutions.index');
+
+    Route::get('serviço-api', 'Website\MainController@api')
+        ->name('api.index');
+
         // contactos
     Route::get('contactos', 'Website\MainController@contacts')
         ->name('contacts.index');

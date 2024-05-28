@@ -23,20 +23,20 @@
         </div>
     </div>
 </section> 
-<section class="sobre row" >
+<section class="row sobre m-b-30" >
     <div class="col-12 col-sm-12 col-md-7 col-xl-7 class-imagea">
         <img src="{{ asset('assets/website/img/armazenagem1.png') }}" alt="sobre-nos" class="img2-about" style="width:100%;">
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-xl-5 class-recabout">
         <div class="rectangleab-storage">
             <h4 class="about-home">{{trans('website.services.distribuition.title')}}</h4>
-            <h2 class="about2-home">Otimizamos espaço para o seu sucesso</h2>
+            <h2 class="about2-home">{{ trans('website.services.distribuition.pageSubtitle') }}</h2>
             <p class="textabout-home">{{trans('website.services.distribuition.longDescription')}} </p>
         </div>
         {{-- <img src="{{ asset('assets/website/img/sobre.png') }}" alt="sobre-nos"> --}}
     </div>
 </section>
-<section style="padding: 68px 84px 50px 84px;">
+<section style="padding: 68px 84px 50px 84px;" class="m-b-50">
     <div class="row">
         <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-xl-8" style="padding-left:0px;">
             <h4 class="about-home">{{trans('website.services.qualities.title')}}</h4>
