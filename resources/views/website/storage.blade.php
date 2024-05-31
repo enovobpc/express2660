@@ -23,12 +23,12 @@
         </div>
     </div>
 </section> 
-<section class="sobre row" >
-    <div class="col-12 col-sm-12 col-md-7 col-xl-7 class-imagea">
-        <img src="{{ asset('assets/website/img/armazenagem1.png') }}" alt="sobre-nos" class="img2-about" style="width:100%;">
+<section class="container m-t-50 m-b-50" style="display: block">
+    <div class="col-sm-12 col-md-6 col-xl-6 class-imagea">
+        <img src="{{ asset('assets/website/img/storage-md.png') }}" alt="sobre-nos" class="img2-about" style="width:100%;">
     </div>
-    <div class="col-12 col-sm-12 col-md-5 col-xl-5 class-recabout">
-        <div class="rectangleab-storage">
+    <div class="col-sm-12 col-md-6 col-xl-6 ">
+        <div class="rectangleab-storage" style="margin-top: 0">
             <h4 class="about-home">{{trans('website.services.storage.title')}}</h4>
             <h2 class="about2-home">{{trans('website.services.storage.pageSubtitle')}}</h2>
             <p class="textabout-home">{{trans('website.services.storage.longDescription')}}</p>

@@ -126,17 +126,30 @@
 
 
 
-<section class="sobre row">
-    <div class="col-12 col-sm-12 col-md-6 col-xl-7 class-imagea">
+<section class="sobre container" style="display: block">
+    <div class="col-sm-12 col-md-6 col-xl-6">
         <div>
-            <img src="{{ asset('assets/website/img/sobre.png') }}" alt="sobre-nos" style="width:100%;">
+            <img class="visible-xl hidden-xs hidden-md " src="{{ asset('assets/website/img/img-about.png') }}" alt="sobre-nos" style="width:100%; padding: 0 50px 0 0;">
+            <img class="visible-md hidden-xl" src="{{ asset('assets/website/img/img-about-md.png') }}" alt="sobre-nos" style="width:100%;">
         </div>
     </div>
-    <div class="col-12 col-sm-12 col-md-6 col-xl-5 class-recabout">
-        <div class="rectangle-about">
+    <div class="col-sm-12 col-md-6 col-xl-6 hidden-xs" >
+        <div>
             <h4 class="about-home text-uppercase">{{trans('website.about.title')}}</h4>
             <h2 class="about2-home">{{trans('website.about.subtitle')}}</h2>
             <p class="textabout-home">{!!trans('website.about.description')!!}</p>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-xl-6 visible-xs" style="margin:20px; padding:20px;">
+        <div>
+            <h4 class="about-home text-uppercase">{{trans('website.about.title')}}</h4>
+            <h2 class="about2-home">{{trans('website.about.subtitle')}}</h2>
+            <p class="textabout-home">{!!trans('website.about.description')!!}</p>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-xl-6 visible-xs">
+        <div>
+            <img class="visible-xs" src="{{ asset('assets/website/img/img-about-md.png') }}" alt="sobre-nos" style="width:100%; margin-bottom: 20px;">
         </div>
     </div>
 </section>

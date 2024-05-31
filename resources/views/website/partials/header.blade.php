@@ -22,17 +22,21 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link" type="button" data-toggle="navbarDropdown" style="color: #cf1300; display:flex; justify-content:center; align-items:center;">
+                    <a class="nav-link" href="{{route('services.index')}}" type="button" data-toggle="navbarDropdown" style="color: #cf1300; display:flex; justify-content:center; align-items:center;">
                         <snap>Serviços</snap>
                         <span class="caret"></span> 
                     </a>  
                     <div class="dropdown-menu nav-tabs" aria-labelledby="navbarDropdown">
-                        <a href="{{route('services.index')}}" class="dropdown-item" title="Carga Completa">Serviços</a>
-                        <a href="{{route('storage.index')}}" class="dropdown-item" title="Carga Completa">Armazenagem</a>
-                        <a href="{{route('packaging.index')}}"  class="dropdown-item" title="Temperatura Controlada">Embalamento e Etiquetagem</a>
-                        <a href="{{route('distribution.index')}}" class="dropdown-item" title="Transporte de Mudanças">Distribuição</a>
-                        <a href="{{route('callcenter.index')}}" class="dropdown-item" title="Serviço de Estafetagem">Call Center</a>
-                        <a href="{{route('ecommerce.index')}}" class="dropdown-item" title="Serviço de Grupagem">E-Commerce</a>
+                        {{-- <a href="{{route('services.index')}}" class="dropdown-item" title="Carga Completa">{{Serviços}}</a> --}}
+                        <a href="{{route('storage.index')}}" class="dropdown-item" title="{{trans('website.navbar.services.storage')}}">{{trans('website.navbar.services.storage')}}</a>
+                        <a href="{{route('packaging.index')}}"  class="dropdown-item" title="{{trans('website.navbar.services.packaging')}}">{{ trans('website.navbar.services.packaging') }}</a>
+                        <a href="{{route('distribution.index')}}" class="dropdown-item" title="{{trans('website.navbar.services.distribution')}}">{{trans('website.navbar.services.distribution')}}</a>
+                        <a href="{{route('devolutions.index')}}"  class="dropdown-item" title="{{trans('website.navbar.services.devolutions')}}">{{ trans('website.navbar.services.devolutions') }}</a>
+                        <a href="{{route('charge.index')}}"  class="dropdown-item" title="{{trans('website.navbar.services.charge')}}">{{ trans('website.navbar.services.charge') }}</a>
+                        <a href="{{route('callcenter.index')}}" class="dropdown-item" title="{{trans('website.navbar.services.callcenter')}}">{{trans('website.navbar.services.callcenter')}}</a>
+                        <a href="{{route('ecommerce.index')}}" class="dropdown-item" title="{{trans('website.navbar.services.ecommerce')}}">{{trans('website.navbar.services.ecommerce')}}</a>
+                        <a href="{{route('api.index')}}"  class="dropdown-item" title="{{trans('website.navbar.services.api')}}">{{ trans('website.navbar.services.api') }}</a>
+
                     </div>
                 </li>
 

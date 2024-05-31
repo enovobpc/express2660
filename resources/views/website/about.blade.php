@@ -24,7 +24,7 @@
 </section> 
 <section class="sobre row" >
     <div class="col-12 col-sm-12 col-md-7 col-xl-7 class-imagea">
-        <img src="{{ asset('assets/website/img/img-about.png') }}" alt="sobre-nos" class="img2-about" style="width:100%;">
+        <img src="{{ asset('assets/website/img/img-about-page.png') }}" alt="sobre-nos" class="img2-about" style="width:100%;">
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-xl-5 class-recabout">
         <div class="rectangleab-about">

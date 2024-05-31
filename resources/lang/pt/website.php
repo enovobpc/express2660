@@ -14,7 +14,17 @@
         'navbar' => [
             'home' => 'Início',
             'about' => 'Empresa',
-            'services' => 'Serviços',
+            'services' => [
+                'title' => 'Serviços',
+                'storage' => 'Armazenagem',
+                'packaging' => 'Embalamento e Etiquetagem',
+                'distribution' => 'Distribuição',
+                'devolutions' => 'Devoluções',
+                'charge' => 'Cobranças',
+                'callcenter' => 'Call Center',
+                'ecommerce' => 'E-commerce',
+                'api' => 'API'
+            ],
             'contacts' => 'Contactos',
             'cooling'  => 'Transporte Frio',
             'account' => 'Área Cliente',
