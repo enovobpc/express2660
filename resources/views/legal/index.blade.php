@@ -17,7 +17,7 @@ Avisos Legais |
     </div>
 </section>
 <section>
-    <div class="container">
+    <div class="container m-b-100">
         <div class="row">
             <div class="col-sm-3">
                 @include('legal.partials.sidebar')

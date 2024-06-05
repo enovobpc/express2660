@@ -16,45 +16,43 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
     Route::get('/', 'Website\MainController@index')
         ->name('home.index');
 
-    Route::get('sobre-nos', 'Website\MainController@about')
+    Route::get(LaravelLocalization::transRoute('website.routes.about'), 'Website\MainController@about')
         ->name('about.index');
 
-    Route::get('serviços', 'Website\MainController@services')
+    Route::get(LaravelLocalization::transRoute('website.routes.services'), 'Website\MainController@services')
         ->name('services.index');
 
-    // tipos de serviços
-    Route::get('serviço-armazenagem', 'Website\MainController@storage')
+    // tipos de servicos
+    Route::get(LaravelLocalization::transRoute('website.routes.storage'), 'Website\MainController@storage')
         ->name('storage.index');
         
-    Route::get('serviço-embalamentoetiquetagem', 'Website\MainController@packaging')
+    Route::get(LaravelLocalization::transRoute('website.routes.packaging'), 'Website\MainController@packaging')
         ->name('packaging.index');
 
-    Route::get('serviço-distribuição', 'Website\MainController@distribution')
+    Route::get(LaravelLocalization::transRoute('website.routes.distribution'), 'Website\MainController@distribution')
         ->name('distribution.index');
 
-    Route::get('serviço-callcenter', 'Website\MainController@callcenter')
+    Route::get(LaravelLocalization::transRoute('website.routes.callcenter'), 'Website\MainController@callcenter')
         ->name('callcenter.index');
 
-    Route::get('serviço-ecommerce', 'Website\MainController@ecommerce')
+    Route::get(LaravelLocalization::transRoute('website.routes.ecommerce'), 'Website\MainController@ecommerce')
         ->name('ecommerce.index');
 
-    Route::get('serviço-cobranca', 'Website\MainController@charge')
+    Route::get(LaravelLocalization::transRoute('website.routes.charge'), 'Website\MainController@charge')
         ->name('charge.index');
 
-    Route::get('serviço-devolucao', 'Website\MainController@devolutions')
+    Route::get(LaravelLocalization::transRoute('website.routes.devolutions'), 'Website\MainController@devolutions')
         ->name('devolutions.index');
 
-    Route::get('serviço-api', 'Website\MainController@api')
+    Route::get(LaravelLocalization::transRoute('website.routes.api'), 'Website\MainController@api')
         ->name('api.index');
 
-        // contactos
-    Route::get('contactos', 'Website\MainController@contacts')
-        ->name('contacts.index');
+    
         
     // Route::get('recrutamento', 'Website\MainController@recruitment')
     //     ->name('recruitment.index');
 
-    Route::get('pedir-orçamento', 'Website\MainController@budget')
+    Route::get(LaravelLocalization::transRoute('website.routes.budget'), 'Website\MainController@budget')
         ->name('budget.index');
 
 
@@ -87,8 +85,12 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'l
 //contacts
 Route::group(['prefix' => LaravelLocalization::setLocale().'/'.LaravelLocalization::transRoute('website.routes.contacts'), 'middleware' => [ 'localeSessionRedirect', 'localizationRedirect' ], 'namespace' => 'Website'], function() {
         
-    Route::get('/', 'ContactsController@index')
-        ->name('website.contacts.index');
+    // Route::get('/', 'ContactsController@index')
+    //     ->name('website.contacts.index');
+
+     // contactos
+    Route::get('/', 'Website\MainController@contacts')
+        ->name('contacts.index');
 
     Route::post('/', 'ContactsController@mail')
         ->name('website.contacts.mail');

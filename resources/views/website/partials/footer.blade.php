@@ -1,6 +1,5 @@
 <footer>
     <div class="row footer-img">
-        {{-- <div class="row footer-img" style="margin-bottom:50px;"> --}}
             <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-xl-6 logo-footer">
                 <img src="{{ asset('assets/img/logo/logo.svg') }}" class="logo">  
                 <div class="locat-footer" style="margin-bottom:10px;">
@@ -41,7 +40,7 @@
                     </li>
                     <li>
                         <a href="{{route('distribution.index')}}">
-                            {{ trans('website.footer.services.distribuition') }}
+                            {{ trans('website.footer.services.distribution') }}
                         </a>
                     </li>
                     <li>

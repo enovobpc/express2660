@@ -23,10 +23,10 @@
                     <div id="pointer">
                             <div class="follow-text">
                                 <form method="GET" action="{{ route('trk.index') }}" accept-charset="UTF-8">
-                                    <h3 class="green-tracking">Seguir Envio</h3>
+                                    <h3 class="green-tracking">{{ trans('website.navbar.follow') }}</h3>
                                     <div class="tracking-class">
-                                        <input type="text" class="form-control col-xs-12 col-md-8 form" value="{{ @$tracking }}" placeholder="Número de envio: VD0000000000" name="tracking">
-                                        <button class="btn btn-follow col-xs-12 col-md-3">SEGUIR ENVIO ></button>
+                                        <input type="text" class="form-control col-xs-12 col-md-8 form" value="{{ @$tracking }}" placeholder="{{trans('website.tracking.placeholder')}}" name="tracking">
+                                        <button class="btn btn-follow col-xs-12 col-md-3 text-uppercase">{{ trans('website.navbar.follow') }} ></button>
                                     </div>
                                     @if(!empty(@$tracking) && empty(@$shipmentsResults))
                                     <p class="feedback"><i class="fas fa-exclamation-circle"></i> Nenhum serviço encontrado com o código indicado.</p>
@@ -128,13 +128,13 @@
 
 <section class="sobre container" style="display: block">
     <div class="col-sm-12 col-md-6 col-xl-6">
-        <div>
-            <img class="visible-xl hidden-xs hidden-md " src="{{ asset('assets/website/img/img-about.png') }}" alt="sobre-nos" style="width:100%; padding: 0 50px 0 0;">
-            <img class="visible-md hidden-xl" src="{{ asset('assets/website/img/img-about-md.png') }}" alt="sobre-nos" style="width:100%;">
+        <div style="display: flex; justify-content: center;"> 
+            <img class="visible-xl hidden-xs hidden-sm hidden-md " src="{{ asset('assets/website/img/img-about.png') }}" alt="sobre-nos" style="width:100%; padding: 0 50px 0 0;">
+            <img class="visible-md hidden-xl visible-sm small-img-about" src="{{ asset('assets/website/img/img-about-xxs.png') }}" alt="sobre-nos" style="width:80%;">
         </div>
     </div>
     <div class="col-sm-12 col-md-6 col-xl-6 hidden-xs" >
-        <div>
+        <div class="p-20">
             <h4 class="about-home text-uppercase">{{trans('website.about.title')}}</h4>
             <h2 class="about2-home">{{trans('website.about.subtitle')}}</h2>
             <p class="textabout-home">{!!trans('website.about.description')!!}</p>

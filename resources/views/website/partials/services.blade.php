@@ -1,7 +1,7 @@
 <section class="services-home">
    <div class=" col-sm-12"> 
     <div class="col-sm-12 col-md-12 col-xl-4  m-t-20 m-b-20">
-        <h4 class="servicestitle-home">{{ trans('website.services.storage.title') }}</h4>
+        <h4 class="servicestitle-home">{{ trans('website.services.title') }}</h4>
         <h2 class="servecessubtitle-home">{{ trans('website.services.storage.description') }}</h2>
     </div>
     <div class=" col-sm-12 col-md-12 col-xl-4  m-t-20 m-b-20">
@@ -9,11 +9,11 @@
 
             <img class="service-icon armazenagem-icon" src="/assets/website/img/services-icons/armazenagem-xs.svg" height="100%" width="100%" style="opacity: 0.4;">
             <div class="class-texto2" style="padding:0;">
-                <h4 class="text-arma">{{ trans('website.services.storage.title') }}</h4>
-                <p class="texte-armaze-1">{{ trans('website.services.storage.description') }}</p>
+                <h4 class="text-arma">{!! trans('website.services.storage.title') !!}</h4>
+                <p class="texte-armaze-1">{!! trans('website.services.storage.description') !!}</p>
             </div>  
             <button class="btn btn-services">
-                <a href="{{route('storage.index')}}" class="nav-link text-uppercase">{{trans('website.btns.see-more')}}</a>
+                <a href="{{route('storage.index')}}" class="nav-link text-uppercase">{!!trans('website.btns.see-more')!!}</a>
             </button>
         </div>          
     </div>
@@ -21,11 +21,11 @@
         <div class="section-sobre">
             <img class="service-icon embalamento-icon" src="/assets/website/img/services-icons/embalamento-xs.svg" height="100%" width="100%" style="opacity: 0.4;">
             <div class="class-texto2" style="padding:0;" >
-                <h4 class="text-arma">{{ trans('website.services.packing.title') }}</h4>
-                <p class="texte-armaze-1">{{ trans('website.services.packing.description') }}</p>
+                <h4 class="text-arma">{!! trans('website.services.packing.title') !!}</h4>
+                <p class="texte-armaze-1">{!! trans('website.services.packing.description') !!}</p>
             </div> 
             <button class="btn btn-services">
-                <a  href="{{route('packaging.index')}}" class="nav-link text-uppercase">{{trans('website.btns.see-more')}}</a>
+                <a  href="{{route('packaging.index')}}" class="nav-link text-uppercase">{!!trans('website.btns.see-more')!!}</a>
             </button> 
         </div>
     </div>
@@ -37,11 +37,11 @@
             
             <img class="service-icon distribuicao-icon" src="/assets/website/img/services-icons/distribuicao-xs.svg" height="100%" width="100%" style="opacity: 0.4;">
             <div class="class-texto2" style="padding:0;">
-                <h4 class="text-arma">{{ trans('website.services.distribuition.title') }}</h4>
-                <p class="texte-armaze-1">{{ trans('website.services.distribuition.description') }}</p>
+                <h4 class="text-arma">{!! trans('website.services.distribution.title') !!}</h4>
+                <p class="texte-armaze-1">{!! trans('website.services.distribution.description') !!}</p>
             </div> 
             <button class="btn btn-services">
-                <a href="{{route('distribution.index')}}" class="nav-link text-uppercase">{{trans('website.btns.see-more')}}</a>
+                <a href="{{route('distribution.index')}}" class="nav-link text-uppercase">{!!trans('website.btns.see-more')!!}</a>
             </button> 
         </div>
     </div>
@@ -52,11 +52,11 @@
             
             <img class="service-icon devolution-icon" src="/assets/website/img/services-icons/devolucoes-xs.svg" height="100%" width="100%" style="opacity: 0.4;">
             <div class="class-texto2" style="padding:0;">
-                <h4 class="text-arma">{{ trans('website.services.devolutions.title') }}</h4>
-                <p class="texte-armaze-1">{{ trans('website.services.devolutions.description') }}</p>
+                <h4 class="text-arma">{!! trans('website.services.devolutions.title') !!}</h4>
+                <p class="texte-armaze-1">{!! trans('website.services.devolutions.description') !!}</p>
             </div> 
             <button class="btn btn-services">
-                <a href="{{route('devolutions.index')}}" class="nav-link text-uppercase">{{trans('website.btns.see-more')}}</a>
+                <a href="{{route('devolutions.index')}}" class="nav-link text-uppercase">{!!trans('website.btns.see-more')!!}</a>
             </button> 
         </div>
     </div>
@@ -65,11 +65,11 @@
             
             <img class=" service-icon charge-icon" src="/assets/website/img/services-icons/cobranca-xs.svg" height="100%" width="100%" style="opacity: 0.4;">
             <div class="class-texto2" style="padding:0;">
-                <h4 class="text-arma">{{ trans('website.services.charge.title') }}</h4>
-                <p class="texte-armaze-1">{{ trans('website.services.charge.description') }}</p>
+                <h4 class="text-arma">{!! trans('website.services.charge.title') !!}</h4>
+                <p class="texte-armaze-1">{!! trans('website.services.charge.description') !!}</p>
             </div>  
             <button class="btn btn-services">
-                <a href="{{route('charge.index')}}" class="nav-link text-uppercase">{{trans('website.btns.see-more')}}</a>
+                <a href="{{route('charge.index')}}" class="nav-link text-uppercase">{!!trans('website.btns.see-more')!!}</a>
             </button>
         </div>
     </div>
@@ -274,7 +274,7 @@
 
 
             $(".ecommerce-icon").parent().on("mouseover", function(){
-                $(".ecommerce-icon").attr("style","opacity: 0.4;");
+                $(".ecommerce-icon").attr("style","opacity: 1;");
             });
             $(".ecommerce-icon").parent().on("mouseout", function(){
                 $(".ecommerce-icon").attr("style","opacity: 0.4;");

@@ -7,7 +7,7 @@
             <h4 class="title-recrutamento" style="text-transform: uppercase;">{{trans('website.contacts.section.title')}}</h4>
             <h1 class="sub-recrutamento" style="color:#69B539;">{!!trans('website.contacts.section.subtitle')!!}</h1>
             <button class="btn btn-recrutamento">
-                <a href="{{route(('contacts.index'))}}"" class="nav-link" style="font-weight: 400; color: #69B539 !important;">CONTACTAR</a>
+                <a href="{{route(('contacts.index'))}}"" class="nav-link text-uppercase" style="font-weight: 400; color: #69B539 !important;">{{trans('website.btns.contact')}}</a>
             </button>
         </div>
     </div>

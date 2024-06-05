@@ -18,16 +18,16 @@
           <div class="navbar-right m-auto navbar-collapse collapse p-15" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                    <a href="{{ route('about.index')}}" class="nav-link" style="color: #cf1300;">Empresa</a>
+                    <a href="{{ route('about.index')}}" class="nav-link" style="color: #cf1300;">{{ trans('website.navbar.about') }}</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{route('services.index')}}" type="button" data-toggle="navbarDropdown" style="color: #cf1300; display:flex; justify-content:center; align-items:center;">
-                        <snap>Serviços</snap>
+                    <a class="nav-link"  type="button" data-toggle="navbarDropdown" style="color: #cf1300; display:flex; justify-content:center; align-items:center;">
+                        <snap>{{ trans('website.navbar.services.title') }}</snap>
                         <span class="caret"></span> 
                     </a>  
                     <div class="dropdown-menu nav-tabs" aria-labelledby="navbarDropdown">
-                        {{-- <a href="{{route('services.index')}}" class="dropdown-item" title="Carga Completa">{{Serviços}}</a> --}}
+                        <a href="{{route('services.index')}}" class="dropdown-item" title="{{trans('website.navbar.services.title')}}">{{trans('website.navbar.services.title')}}</a>
                         <a href="{{route('storage.index')}}" class="dropdown-item" title="{{trans('website.navbar.services.storage')}}">{{trans('website.navbar.services.storage')}}</a>
                         <a href="{{route('packaging.index')}}"  class="dropdown-item" title="{{trans('website.navbar.services.packaging')}}">{{ trans('website.navbar.services.packaging') }}</a>
                         <a href="{{route('distribution.index')}}" class="dropdown-item" title="{{trans('website.navbar.services.distribution')}}">{{trans('website.navbar.services.distribution')}}</a>
@@ -41,16 +41,16 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('tracking.index')}}" class="nav-link" style="color: #cf1300;">Seguir Envio</a>
+                    <a href="{{ route('tracking.index')}}" class="nav-link" style="color: #cf1300;">{{ trans('website.navbar.follow') }}</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link" type="button" style="color: #cf1300; display:flex; justify-content:center; align-items:center;" data-toggle="navbarDropdown">
-                        <snap>Contactos</snap>
+                        <snap>{{ trans('website.navbar.contacts') }}</snap>
                         <span class="caret"></span> 
                     </a>             
                     <div class="dropdown-menu nav-tabs" aria-labelledby="navbarDropdown">
-                        <a href="{{route('contacts.index')}}"  class="dropdown-item" title="Carga Completa">Contactos</a>
-                        <a  href="{{route('budget.index')}}" class="dropdown-item" title="Temperatura Controlada">Pedir Orçamento</a>
+                        <a href="{{route('contacts.index')}}"  class="dropdown-item" title="Contactos">{{ trans('website.navbar.contacts') }}</a>
+                        <a  href="{{route('budget.index')}}" class="dropdown-item" title="Pedir Orçamento">{{trans('website.navbar.budget')}}</a>
                     </div>
                 </li>
                 
@@ -92,12 +92,7 @@
         .p-15 {
             padding: 0px;
         }
-        .flag-icon-pt{
-            background-image:none;
-        }
-        .flag-icon {
-            width: 0em;
-        }
+        
         .navbar-toggler:focus{
             box-shadow:none;
         }
