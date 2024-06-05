@@ -115,14 +115,62 @@ body {
   #follow {
     display: flex;
   }
+
+  
+
+  
 }
 
+@media (max-width: 1200px ) {
+  .qualities {
+    padding: 40px!important;
+  }
+
+  .icone-storage {
+    margin-right: 20px !important;
+  }
+
+  .icone-storage svg {
+    height: 45px;
+  }
+
+  .qualities-row .col-12:nth-child(odd) {
+    padding-right: 0!important;
+  }
+
+  .rectangle-storage {
+    padding-left: 15px!important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .qualities-img  {
+    display: none !important;
+  }
+  .qualities .col-md-8 {
+    flex:unset!important;
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .small-img-about {
+    width: 100% !important;
+    }
+
+   
+}
 @media (min-width: 991px) and (max-width: 1200px) {
 
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
   }
+
+  .small-img-about {
+  width: 80% !important;
+  }
+  
 }
 
 
@@ -177,8 +225,21 @@ body {
 
   .services-home {
     padding:30px!important;
+    padding-bottom: 160px !important;
   }
   
+  .img2-about {
+    width: 100% !important;
+  }
+
+  .text-top-about {
+    font-size: 40px !important;
+    text-align: center;
+  }
+
+  .text-top2 {
+    font-size: 15px !important;
+  }
 
 }
 .navbar-nav {
@@ -383,6 +444,27 @@ nav .nav-link:focus {
     margin-bottom: 0;
     list-style: none;
     padding: 20px;
+  }
+
+  /* .qualities-row .col-12:nth-child(even) .rectangle-storage  {
+    float: right;
+  } */
+
+  .qualities-row {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  .qualities-row .col-12 {
+    padding: 0!important;
+    margin: 10px 0;
+  }
+
+  .rectangleab-storage  {
+    margin-right: unset !important;
+    margin-left: unset !important;
+    margin-bottom:50px !important;
+    padding: 0!important;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -731,6 +813,11 @@ input {
   padding-left: 0px;
   padding-right: 0px;
 }
+.service-page-row {
+  margin: 100px 0px 50px;
+  padding: 0px 80px;
+}
+
 .class-recabout {
   padding-left: 0px;
   padding-right: 100px;
@@ -810,6 +897,7 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 60px !important;
 }
 .title-recrutamento {
   color: #00491a;
@@ -860,20 +948,16 @@ input {
   width: auto;
   padding: 70px;
   position: relative;
-  margin-top: 15%;
   margin-left: -27%;
+  margin-right: -80px;
   background-color: #ffffff;
   box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
 }
 .rectangleab-storage {
   height: auto;
   width: auto;
-  padding: 70px;
+  padding: 20px 20px 20px 50px;
   position: relative;
-  margin-right: -10%;
-  margin-left: -10%;
-  background-color: #ffffff;
-  box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
 }
 
 .empresas img {
@@ -900,9 +984,25 @@ input {
   .vision-side-text {
     display: none !important;
   }
+
+  
 }
 
 @media (max-width: 991px){
+
+  .service-page-row {
+    margin: 70px 0px 20px;
+    padding: 30px;
+  }
+
+  .shadowContainerMission .shadowContent:after {
+    box-shadow: -30px 30px #3d6a4c, -30px -30px #3d6a4c !important;
+  }
+
+  .shadowContainerVision .shadowContent:after {
+    box-shadow: 30px 30px #3d6a4c, 30px -30px #3d6a4c !important;
+  }
+
   .empresas img {
     padding: 10px;
   }
@@ -917,6 +1017,7 @@ input {
   }
 
   .values {
+    margin-top: 20px !important;
     padding: 50px 20px !important;
   }
 
@@ -925,9 +1026,62 @@ input {
   }
 
   .mission-vision {
-    padding: 50px !important;
+      padding: 45px 20px !important;
   }
+
+  .class-imagea {
+    height: auto!important;
+    max-height: 440px;
+    margin-bottom: 20px;
+  }
+
   
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .rectangle-about, .rectangleab-about{
+    margin-top: 50px;
+  }
+
+  .service-page-row .class-imagea {
+    max-height: 520px !important; 
+  }
+  .service-page-row .class-imagea img{
+    max-height: 520px !important;
+    width: unset !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .service-page-row .rectangleab-about {
+    padding: 65px!important;
+    margin-top: 60px;
+  }
+
+  .service-page-row .class-recabout {
+    padding-right: 45px!important;
+  }
+
+
+  .service-page-row .class-imagea {
+    height: 680px !important; 
+  }
+  .service-page-row .class-imagea img{
+    max-height: 615px !important;
+    width: unset !important;
+  }
+}
+
+@media (min-width:1200px) and (max-width: 1400px) {
+  .service-page-row .class-imagea img {
+    max-height: 480px !important;
+    width: unset !important;
+  }
+
+  .service-page-row .rectangleab-about {
+    padding: 65px!important;
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -938,29 +1092,21 @@ input {
   .text-mission-vision {
     padding-right: 5%!important;
   }
+
+  .icone-missionvission {
+    display: none !important;
+  }
+
+  .shadowContent {
+    margin: 40px 0 60px;
+  }
+
+  .text-vertical1 , .text-vertical2{
+    font-size: 37px !important;
+  }
 }
 
 @media (min-width: 1900px) and (max-width: 1932px) {
-  .rectangleab-about {
-    height: 513px;
-    width: auto;
-    padding: 70px;
-    position: relative;
-    margin-top: 35%;
-    margin-left: -35%;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
-  }
-  .rectangleab-storage {
-    height: auto;
-    width: auto;
-    padding: 70px;
-    position: relative;
-    margin-top: 38%;
-    margin-left: -35%;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
-  }
   .img2-about {
     width: 90% !important;
   }
@@ -1172,6 +1318,7 @@ input {
   /* border-radius: 11px; */
   display: flex;
   border-radius: 11px;
+  width: -webkit-fill-available;
   height: auto;
   flex-direction: row;
   box-shadow: 0px 5px 16px 3px rgb(0 0 0 / 10%);
@@ -2070,9 +2217,10 @@ textarea.input-lg {
     padding: unset;;
   }
 
-  .rectangle-about,  .rectangleab-about{
+  .rectangle-about, .rectangleab-about{
     padding: 45px;
-    margin: 7%;
+    margin-right: 0;
+    margin-left: 0;
   }
   .parte-baixo{
     padding: 20px !important;
@@ -2169,6 +2317,12 @@ textarea.input-lg {
   color: #333;
 
   text-align: left;
+}
+
+
+.qualities {
+  padding: 68px 84px 50px 84px; 
+  margin-bottom:50px;;
 }
 
 /*--------------------------------------------------------------
@@ -2923,9 +3077,6 @@ textarea.input-lg {
 
 @media (min-width: 768px) and (max-width: 1200px){
 
-  .mission-vision img {
-    display: none;
-  }
   .shadowContainerVision .shadowContent {
     padding-left: 50px;
   }
